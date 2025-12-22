@@ -1,0 +1,53 @@
+# --- Template author - Wheaten -------
+# --- Template adopted - Nerd -------
+[vertical-turntable-blue]
+meter.type = linear
+channels = 2
+ui.refresh.period = 0.05
+bgr.filename = vertical-turntable-blue-2024_dark-bgr.png
+indicator.filename = vertical-turntable-blue-2024_dark-indicator.png
+fgr.filename = vertical-turntable-blue-2024_dark-fgr.png
+left.x = 74
+left.y = 598
+right.x = 1080
+right.y = 598
+position.regular = 10
+position.overload = 2
+step.width.regular = 11
+step.width.overload = 11
+direction = left-right
+meter.x = 0
+meter.y = 0
+screen.bgr =
+# --- volumio optional entries -------
+config.extend = True
+albumart.pos = 395,80
+albumart.dimension = 496,496
+albumart.rotation = True
+albumart.rotation.speed = 13
+
+playinfo.title.pos = 22,5,bold
+playinfo.title.color = 119,83,69
+playinfo.title.maxwidth = 1216
+
+playinfo.artist.pos = 20,45,regular
+playinfo.artist.color = 119,83,69
+playinfo.artist.maxwidth = 1216
+
+playinfo.center = True
+font.color = 255,255,255
+
+playinfo.type.pos = 16,360
+playinfo.type.dimension = 96,96
+playinfo.samplerate.pos = 64,504,light
+playinfo.type.color = 0,1,10
+playinfo.samplerate.maxwidth = 208
+
+time.remaining.pos = 984,414
+time.remaining.color = 0,1,10
+
+font.size.digi = 60
+font.size.light = 28
+font.size.regular = 30
+font.size.bold = 36
+

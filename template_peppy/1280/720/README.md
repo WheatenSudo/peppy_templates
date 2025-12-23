@@ -1,6 +1,6 @@
 # VU Meters - 1280x720
 
-2 template(s) available for 1280x720 resolution.
+3 template(s) available for 1280x720 resolution.
 
 ---
 
@@ -17,6 +17,22 @@
 | Album Art | Yes |
 
 **[Download 1280x720_custom_01.zip](1280x720_custom_01.zip)**
+
+---
+
+## 1280x720_custom_02
+
+![1280x720_custom_02](previews/1280x720_custom_02.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | VTEBT-RecordPlayer |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | No |
+| Album Art | Yes |
+
+**[Download 1280x720_custom_02.zip](1280x720_custom_02.zip)**
 
 ---
 

@@ -42,7 +42,7 @@
 
 | Property | Value |
 |----------|-------|
-| Meter Name | RecordPlayer |
+| Meter Name | Bang & Olufsen |
 | Meter Type | linear |
 | Extended Config | Yes |
 | Spectrum | No |

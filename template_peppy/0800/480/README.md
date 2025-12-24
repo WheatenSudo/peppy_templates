@@ -1,6 +1,6 @@
 # VU Meters - 800x480
 
-7 template(s) available for 800x480 resolution.
+8 template(s) available for 800x480 resolution.
 
 ---
 
@@ -113,6 +113,22 @@
 | Album Art | Yes |
 
 **[Download 800x480_custom_07.zip](800x480_custom_07.zip)**
+
+---
+
+## 800x480_custom_08
+
+![800x480_custom_08](previews/800x480_custom_08.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | BrystonBI200 |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | No |
+| Album Art | Yes |
+
+**[Download 800x480_custom_08.zip](800x480_custom_08.zip)**
 
 ---
 

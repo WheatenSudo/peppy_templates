@@ -41,6 +41,10 @@ VU Meter with Spectrum overlay templates.
 
 [Download 1920x1080_20g5_spectr.zip](1920x1080_20g5_spectr.zip)
 
+**Related Downloads:**
+
+- [VU Meter: 1920x1080_20g5_meter.zip](../../../template_peppy/1920/1080/1920x1080_20g5_meter.zip)
+
 ---
 
 

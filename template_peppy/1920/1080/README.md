@@ -57,6 +57,10 @@ VU Meter templates for PeppyMeter Screensaver.
 
 [Download 1920x1080_20g5_meter.zip](1920x1080_20g5_meter.zip)
 
+**Related Downloads:**
+
+- [VU Meter + Spectrum: 1920x1080_20g5_spectr.zip](../../../templates_peppy_spectrum/1920/1080/1920x1080_20g5_spectr.zip)
+
 ---
 
 

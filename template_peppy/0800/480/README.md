@@ -216,6 +216,23 @@ VU Meter templates for PeppyMeter Screensaver.
 
 ---
 
+## 800x480_custom_13
+
+![800x480_custom_13](previews/800x480_custom_13.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | Volumio |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | No |
+| Album Art | Yes |
+
+**Download:** [800x480_custom_13.zip](800x480_custom_13.zip)
+**Install to:** `/data/INTERNAL/peppy_screensaver/templates/`
+
+---
+
 
 ## Installation
 

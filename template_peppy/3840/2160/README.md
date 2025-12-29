@@ -6,7 +6,7 @@
 
 ## 3840x2160_140g5_casette_780
 
-![3840x2160_140g5_casette_780](previews/3840x2160_140g5_casette_780.svg)
+![3840x2160_140g5_casette_780](previews/3840x2160_140g5_casette_780.png)
 
 | Property | Value |
 |----------|-------|

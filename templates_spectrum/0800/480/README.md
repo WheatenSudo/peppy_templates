@@ -6,7 +6,7 @@ Spectrum Analyzer templates.
 
 ## 800x480_as200custom_11
 
-![800x480_as200custom_11](previews/800x480_as200custom_11.svg)
+![800x480_as200custom_11](previews/800x480_as200custom_11.png)
 
 | Property | Value |
 |----------|-------|

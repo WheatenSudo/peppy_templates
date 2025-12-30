@@ -55,6 +55,35 @@ VU Meter templates for PeppyMeter Screensaver.
 
 ---
 
+## 1920x480_g5_820_basic
+
+![1920x480_g5_820_basic](previews/1920x480_g5_820_basic.png)
+
+| Property | Value |
+|----------|-------|
+| Template Pack | Yes (8 templates) |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | No |
+| Album Art | No |
+
+**Included Meters:**
+
+- 31G5_NAD only meters
+- 32G5_Nakamichi only meters
+- 33G5_DF202 Only meters
+- 34G5_T+A
+- 35G5_Luxman ONLY
+- 36G5_Namson Only
+- 37G5_Angstrom only
+- 38G5_Caltecc ony meters
+
+**Download:** [1920x480_g5_820_basic.zip](1920x480_g5_820_basic.zip)
+
+**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+
+---
+
 
 ## Installation
 

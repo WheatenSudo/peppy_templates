@@ -76,6 +76,24 @@ VU Meter templates for PeppyMeter Screensaver.
 
 ---
 
+## 1280x400_nad_6100
+
+![1280x400_nad_6100](previews/1280x400_nad_6100.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | nad-6100 |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | No |
+| Album Art | Yes |
+
+**Download:** [1280x400_nad_6100.zip](1280x400_nad_6100.zip)
+
+**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+
+---
+
 
 ## Installation
 

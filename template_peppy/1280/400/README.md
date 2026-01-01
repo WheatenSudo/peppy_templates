@@ -204,7 +204,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 ## 1280x400_rose_rs150
 
-![1280x400_rose_rs150](previews/1280x400_rose_rs150.svg)
+![1280x400_rose_rs150](previews/1280x400_rose_rs150.png)
 
 | Property | Value |
 |----------|-------|
@@ -215,6 +215,42 @@ VU Meter templates for PeppyMeter Screensaver.
 | Album Art | Yes |
 
 **Download:** [1280x400_rose_rs150.zip](1280x400_rose_rs150.zip)
+
+**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+
+---
+
+## 1280x400_rose_rs250
+
+![1280x400_rose_rs250](previews/1280x400_rose_rs250.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | rose-rs250 |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | No |
+| Album Art | Yes |
+
+**Download:** [1280x400_rose_rs250.zip](1280x400_rose_rs250.zip)
+
+**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+
+---
+
+## 1280x400_technics_SUR1000
+
+![1280x400_technics_SUR1000](previews/1280x400_technics_SUR1000.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | technics |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | No |
+| Album Art | Yes |
+
+**Download:** [1280x400_technics_SUR1000.zip](1280x400_technics_SUR1000.zip)
 
 **Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
 

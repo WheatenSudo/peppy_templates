@@ -197,6 +197,37 @@ VU Meter templates for PeppyMeter Screensaver.
 
 ---
 
+## 1920x550_g5_FanartCD
+
+![1920x550_g5_FanartCD](previews/1920x550_g5_FanartCD.png)
+
+| Property | Value |
+|----------|-------|
+| Template Pack | Yes (10 templates) |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | No |
+| Album Art | Yes |
+
+**Included Meters:**
+
+- 300G5_CD Fanart
+- 301G5_Thinkya Fanart
+- 302G5_NaimCD Fanart
+- 303G5_DUNU Fanart
+- 304G5_HOTT Fanart
+- 305G5_TechDas Fanart
+- 306G5_Denon DP400 Fanart
+- 307G5_Turntable Fanart
+- 308G5_SME60 Fanart
+- 309G5_Akai PRO Fanart
+
+**Download:** [1920x550_g5_FanartCD.zip](1920x550_g5_FanartCD.zip)
+
+**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+
+---
+
 
 ## Installation
 

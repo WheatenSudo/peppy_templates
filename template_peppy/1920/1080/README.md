@@ -392,6 +392,37 @@ VU Meter templates for PeppyMeter Screensaver.
 
 ---
 
+## 1920x1080_g5_FanarTurntable
+
+![1920x1080_g5_FanarTurntable](previews/1920x1080_g5_FanarTurntable.png)
+
+| Property | Value |
+|----------|-------|
+| Template Pack | Yes (10 templates) |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | No |
+| Album Art | Yes |
+
+**Included Meters:**
+
+- 350G5_Denon DP62 Fanart
+- 351G5_Denon DP400 Fanart
+- 352G5_Pioneer Gold Fanart
+- 353G5_Technics Silver Fanart
+- 354G5_Thorens Fanart
+- 355G5_Grandioso Fanart
+- 356G5_Vertere Fanart
+- 357G5_McIntosh MTI100 Fanart
+- 358G5_Naim Turn Fanart
+- 359G5_Turn Black_Fanart
+
+**Download:** [1920x1080_g5_FanarTurntable.zip](1920x1080_g5_FanarTurntable.zip)
+
+**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+
+---
+
 ## 1920x1080_g5_FanartCD
 
 ![1920x1080_g5_FanartCD](previews/1920x1080_g5_FanartCD.png)

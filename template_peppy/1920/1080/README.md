@@ -454,6 +454,39 @@ VU Meter templates for PeppyMeter Screensaver.
 
 ---
 
+## 1920x1080_g5_FanartCass
+
+![1920x1080_g5_FanartCass](previews/1920x1080_g5_FanartCass.png)
+
+| Property | Value |
+|----------|-------|
+| Template Pack | Yes (12 templates) |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | No |
+| Album Art | Yes |
+
+**Included Meters:**
+
+- 370G5_Cassette_Lin Fanart
+- 371G5_TEAC cass Fanart
+- 372G5_Maxell Cass Fanart
+- 373G5_BASF Free Fanart
+- 374G5_Denon Cass Fanart
+- 375G5_SonyK770 cass Fanart
+- 376G5_MION24C Fanart
+- 377G5_Kenwood cass Fanart
+- 378G5_Sharp Cass Fanart
+- 379G5_Sansui Cass Fanart
+- 380G5_TDK Big Fanart
+- 381G5_Maxell Big Fanart
+
+**Download:** [1920x1080_g5_FanartCass.zip](1920x1080_g5_FanartCass.zip)
+
+**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+
+---
+
 ## 1920x1080_reel_tape
 
 ![1920x1080_reel_tape](previews/1920x1080_reel_tape.png)

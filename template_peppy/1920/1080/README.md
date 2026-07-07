@@ -398,7 +398,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 | Property | Value |
 |----------|-------|
-| Template Pack | Yes (10 templates) |
+| Template Pack | Yes (12 templates) |
 | Meter Type | circular |
 | Extended Config | Yes |
 | Spectrum | No |
@@ -416,6 +416,8 @@ VU Meter templates for PeppyMeter Screensaver.
 - 357G5_McIntosh MTI100 Fanart
 - 358G5_Naim Turn Fanart
 - 359G5_Turn Black_Fanart
+- 360G5_Turn Big Fanart
+- 361G5_Turn Big Fanart
 
 **Download:** [1920x1080_g5_FanarTurntable.zip](1920x1080_g5_FanarTurntable.zip)
 

@@ -429,7 +429,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 | Property | Value |
 |----------|-------|
-| Template Pack | Yes (10 templates) |
+| Template Pack | Yes (12 templates) |
 | Meter Type | circular |
 | Extended Config | Yes |
 | Spectrum | No |
@@ -447,6 +447,8 @@ VU Meter templates for PeppyMeter Screensaver.
 - 307G5_FreeCD Fanart
 - 308G5_ONLY Fanart
 - 309G5_Mion_Fanart
+- 310G5_CD Big Fanart
+- 311G5_CD2 Big Fanart
 
 **Download:** [1920x1080_g5_FanartCD.zip](1920x1080_g5_FanartCD.zip)
 

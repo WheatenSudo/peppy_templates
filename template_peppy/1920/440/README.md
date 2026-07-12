@@ -22,6 +22,24 @@ VU Meter templates for PeppyMeter Screensaver.
 
 ---
 
+## 1920x440_Aureon
+
+![1920x440_Aureon](previews/1920x440_Aureon.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | Aureon |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | No |
+| Album Art | Yes |
+
+**Download:** [1920x440_Aureon.zip](1920x440_Aureon.zip)
+
+**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+
+---
+
 ## 1920x440_Carbon_Black
 
 ![1920x440_Carbon_Black](previews/1920x440_Carbon_Black.png)

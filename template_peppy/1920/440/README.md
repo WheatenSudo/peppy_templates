@@ -58,6 +58,24 @@ VU Meter templates for PeppyMeter Screensaver.
 
 ---
 
+## 1920x440_Naim_NSS-333
+
+![1920x440_Naim_NSS-333](previews/1920x440_Naim_NSS-333.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | Naim_NSS-333 |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1920x440_Naim_NSS-333.zip](1920x440_Naim_NSS-333.zip)
+
+**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+
+---
+
 ## 1920x440_Rega_Planar_8
 
 ![1920x440_Rega_Planar_8](previews/1920x440_Rega_Planar_8.png)
@@ -71,6 +89,24 @@ VU Meter templates for PeppyMeter Screensaver.
 | Album Art | Yes |
 
 **Download:** [1920x440_Rega_Planar_8.zip](1920x440_Rega_Planar_8.zip)
+
+**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+
+---
+
+## 1920x440_Rose_RS451
+
+![1920x440_Rose_RS451](previews/1920x440_Rose_RS451.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | Rose_RS451 |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | No |
+| Album Art | Yes |
+
+**Download:** [1920x440_Rose_RS451.zip](1920x440_Rose_RS451.zip)
 
 **Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
 

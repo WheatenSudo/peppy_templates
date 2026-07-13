@@ -46,6 +46,27 @@ Combined VU Meter + Spectrum templates (self-contained with both parts).
 
 ---
 
+## 1920x440_black-anodized
+
+![1920x440_black-anodized](previews/1920x440_black-anodized.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | Black-Anodized |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1920x440_black-anodized.zip](1920x440_black-anodized.zip)
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/peppy_screensaver/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/peppy_screensaver/templates_spectrum/`
+
+---
+
 
 ## Installation
 

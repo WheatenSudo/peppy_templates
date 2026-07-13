@@ -58,24 +58,6 @@ VU Meter templates for PeppyMeter Screensaver.
 
 ---
 
-## 1920x440_Naim_NSS-333
-
-![1920x440_Naim_NSS-333](previews/1920x440_Naim_NSS-333.png)
-
-| Property | Value |
-|----------|-------|
-| Meter Name | Naim_NSS-333 |
-| Meter Type | circular |
-| Extended Config | Yes |
-| Spectrum | Yes |
-| Album Art | Yes |
-
-**Download:** [1920x440_Naim_NSS-333.zip](1920x440_Naim_NSS-333.zip)
-
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
-
----
-
 ## 1920x440_Rega_Planar_8
 
 ![1920x440_Rega_Planar_8](previews/1920x440_Rega_Planar_8.png)

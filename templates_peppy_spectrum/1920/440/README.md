@@ -67,6 +67,27 @@ Combined VU Meter + Spectrum templates (self-contained with both parts).
 
 ---
 
+## 1920x440_Titanium_Black
+
+![1920x440_Titanium_Black](previews/1920x440_Titanium_Black.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | Titanium_Black |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | No |
+| Album Art | Yes |
+
+**Download:** [1920x440_Titanium_Black.zip](1920x440_Titanium_Black.zip)
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/peppy_screensaver/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/peppy_screensaver/templates_spectrum/`
+
+---
+
 ## 1920x440_black-anodized
 
 ![1920x440_black-anodized](previews/1920x440_black-anodized.png)

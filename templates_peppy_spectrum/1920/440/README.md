@@ -25,6 +25,27 @@ Combined VU Meter + Spectrum templates (self-contained with both parts).
 
 ---
 
+## 1920x440_Flow_Two
+
+![1920x440_Flow_Two](previews/1920x440_Flow_Two.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | Flow_Two |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1920x440_Flow_Two.zip](1920x440_Flow_Two.zip)
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/peppy_screensaver/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/peppy_screensaver/templates_spectrum/`
+
+---
+
 ## 1920x440_Naim_NSS-333
 
 ![1920x440_Naim_NSS-333](previews/1920x440_Naim_NSS-333.png)

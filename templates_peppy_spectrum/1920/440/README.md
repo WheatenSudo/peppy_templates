@@ -97,7 +97,7 @@ Combined VU Meter + Spectrum templates (self-contained with both parts).
 | Meter Name | Titanium_Black |
 | Meter Type | circular |
 | Extended Config | Yes |
-| Spectrum | No |
+| Spectrum | Yes |
 | Album Art | Yes |
 
 **Download:** [1920x440_Titanium_Black.zip](1920x440_Titanium_Black.zip)

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-09-23T17:16:57+02:00",
+ "updated": "2026-09-27T21:20:19+02:00",
  "base": "https://raw.githubusercontent.com/foonerd/peppy_templates/main/",
  "templates": [
   {
@@ -846,8 +846,8 @@
    "width": 1024,
    "height": 600,
    "zip": "template_peppy/1024/600/1024x600_g5_712_Cassette.zip",
-   "bytes": 17174342,
-   "sha256": "b63c70a4fe921588a73cd620baf57c589586dd791fee0f8e8fb08efc8b792721",
+   "bytes": 17174643,
+   "sha256": "2191d7b788c7637cf5bd4ea456103732cb58976b4f96636eb422a4ab25ec8f38",
    "units": [
     {
      "kind": "meter",

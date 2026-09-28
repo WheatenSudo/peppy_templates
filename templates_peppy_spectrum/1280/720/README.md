@@ -55,6 +55,34 @@ Combined VU Meter + Spectrum templates (self-contained with both parts).
 
 ---
 
+## 1280x720_glass_analyser
+
+![1280x720_glass_analyser](previews/1280x720_glass_analyser.svg)
+
+| Property | Value |
+|----------|-------|
+| Template Pack | Yes (4 templates) |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Included Meters:**
+
+- studio
+- lamps
+- glow
+- wire
+
+**Download:** [1280x720_glass_analyser.zip](1280x720_glass_analyser.zip)
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/peppy_screensaver/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/peppy_screensaver/templates_spectrum/`
+
+---
+
 
 ## Installation
 

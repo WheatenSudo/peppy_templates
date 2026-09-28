@@ -57,7 +57,7 @@ Combined VU Meter + Spectrum templates (self-contained with both parts).
 
 ## 1280x720_glass_analyser
 
-![1280x720_glass_analyser](previews/1280x720_glass_analyser.svg)
+![1280x720_glass_analyser](previews/1280x720_glass_analyser.png)
 
 | Property | Value |
 |----------|-------|

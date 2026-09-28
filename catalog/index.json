@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-09-28T21:29:04+01:00",
+ "updated": "2026-09-28T21:48:30+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/peppy_templates/main/",
  "templates": [
   {
@@ -5252,8 +5252,8 @@
    "width": 1280,
    "height": 720,
    "zip": "templates_peppy_spectrum/1280/720/1280x720_glass_analyser.zip",
-   "bytes": 291833,
-   "sha256": "605295a052523a1f0497f10b1a66ae85d69f071781b38a69086eec9f28afd6d8",
+   "bytes": 291844,
+   "sha256": "b4c3ea181a9427e6c80b569acb90f91c0cad11209eb46d01d8638eb2d8b166f2",
    "units": [
     {
      "kind": "spectrum",

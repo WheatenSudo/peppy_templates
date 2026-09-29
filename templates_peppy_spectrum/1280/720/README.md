@@ -91,7 +91,7 @@ Combined VU Meter + Spectrum templates (self-contained with both parts).
 
 | Property | Value |
 |----------|-------|
-| Template Pack | Yes (18 templates) |
+| Template Pack | Yes (28 templates) |
 | Meter Type | linear |
 | Extended Config | Yes |
 | Spectrum | Yes |
@@ -117,6 +117,16 @@ Combined VU Meter + Spectrum templates (self-contained with both parts).
 - palette-own-stops
 - color-by-level
 - level-linear
+- onset-flash
+- onset-ring
+- dots
+- waterfall
+- waterfall-sides
+- trail
+- glow
+- fluid
+- ribbon
+- echo
 
 **Download:** [1280x720_glass_looks.zip](1280x720_glass_looks.zip)
 

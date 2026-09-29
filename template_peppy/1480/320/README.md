@@ -41,7 +41,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1480x320_g5_501_meters.zip](1480x320_g5_501_meters.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -82,7 +82,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1480x320_g5_502_meters.zip](1480x320_g5_502_meters.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -123,7 +123,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1480x320_g5_503_meters.zip](1480x320_g5_503_meters.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -164,7 +164,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1480x320_g5_504_meters.zip](1480x320_g5_504_meters.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -197,7 +197,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1480x320_g5_910_turntables.zip](1480x320_g5_910_turntables.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -229,7 +229,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1480x320_g5_911_Tape_Recorder.zip](1480x320_g5_911_Tape_Recorder.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 

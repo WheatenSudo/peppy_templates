@@ -41,7 +41,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1024x600_g5_111_meters.zip](1024x600_g5_111_meters.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -77,7 +77,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1024x600_g5_112_meters.zip](1024x600_g5_112_meters.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -118,7 +118,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1024x600_g5_711_Tape_Recorder.zip](1024x600_g5_711_Tape_Recorder.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -154,7 +154,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1024x600_g5_712_Cassette.zip](1024x600_g5_712_Cassette.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -191,7 +191,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1024x600_g5_713_CD.zip](1024x600_g5_713_CD.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 

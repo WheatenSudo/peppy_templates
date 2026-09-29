@@ -33,7 +33,7 @@ Spectrum Analyzer templates.
 
 **Download:** [1920x480_gradients_kcaudio.zip](1920x480_gradients_kcaudio.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates_spectrum/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates_spectrum/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates_spectrum/` on PeppyMeter Screensaver (legacy)
 
 ---
 

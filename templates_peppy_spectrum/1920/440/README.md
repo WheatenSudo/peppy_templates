@@ -18,7 +18,14 @@ Combined VU Meter + Spectrum templates (self-contained with both parts).
 
 **Download:** [1920x440_Aluminium_spectrum.zip](1920x440_Aluminium_spectrum.zip)
 
-**Install (both required):**
+**Install on Glass (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+**Install on PeppyMeter Screensaver, legacy (both required):**
 1. Extract the zip file
 2. Copy `templates/` contents to `/data/INTERNAL/peppy_screensaver/templates/`
 3. Copy `templates_spectrum/` contents to `/data/INTERNAL/peppy_screensaver/templates_spectrum/`
@@ -39,7 +46,14 @@ Combined VU Meter + Spectrum templates (self-contained with both parts).
 
 **Download:** [1920x440_Black_Blue.zip](1920x440_Black_Blue.zip)
 
-**Install (both required):**
+**Install on Glass (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+**Install on PeppyMeter Screensaver, legacy (both required):**
 1. Extract the zip file
 2. Copy `templates/` contents to `/data/INTERNAL/peppy_screensaver/templates/`
 3. Copy `templates_spectrum/` contents to `/data/INTERNAL/peppy_screensaver/templates_spectrum/`
@@ -60,7 +74,14 @@ Combined VU Meter + Spectrum templates (self-contained with both parts).
 
 **Download:** [1920x440_Flow_Two.zip](1920x440_Flow_Two.zip)
 
-**Install (both required):**
+**Install on Glass (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+**Install on PeppyMeter Screensaver, legacy (both required):**
 1. Extract the zip file
 2. Copy `templates/` contents to `/data/INTERNAL/peppy_screensaver/templates/`
 3. Copy `templates_spectrum/` contents to `/data/INTERNAL/peppy_screensaver/templates_spectrum/`
@@ -81,7 +102,14 @@ Combined VU Meter + Spectrum templates (self-contained with both parts).
 
 **Download:** [1920x440_Naim_NSS-333.zip](1920x440_Naim_NSS-333.zip)
 
-**Install (both required):**
+**Install on Glass (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+**Install on PeppyMeter Screensaver, legacy (both required):**
 1. Extract the zip file
 2. Copy `templates/` contents to `/data/INTERNAL/peppy_screensaver/templates/`
 3. Copy `templates_spectrum/` contents to `/data/INTERNAL/peppy_screensaver/templates_spectrum/`
@@ -102,7 +130,14 @@ Combined VU Meter + Spectrum templates (self-contained with both parts).
 
 **Download:** [1920x440_Titanium_Black.zip](1920x440_Titanium_Black.zip)
 
-**Install (both required):**
+**Install on Glass (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+**Install on PeppyMeter Screensaver, legacy (both required):**
 1. Extract the zip file
 2. Copy `templates/` contents to `/data/INTERNAL/peppy_screensaver/templates/`
 3. Copy `templates_spectrum/` contents to `/data/INTERNAL/peppy_screensaver/templates_spectrum/`
@@ -123,7 +158,14 @@ Combined VU Meter + Spectrum templates (self-contained with both parts).
 
 **Download:** [1920x440_black-anodized.zip](1920x440_black-anodized.zip)
 
-**Install (both required):**
+**Install on Glass (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+**Install on PeppyMeter Screensaver, legacy (both required):**
 1. Extract the zip file
 2. Copy `templates/` contents to `/data/INTERNAL/peppy_screensaver/templates/`
 3. Copy `templates_spectrum/` contents to `/data/INTERNAL/peppy_screensaver/templates_spectrum/`

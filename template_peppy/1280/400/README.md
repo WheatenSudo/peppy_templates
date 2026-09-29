@@ -18,7 +18,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x400_Aluminium_frame_01.zip](1280x400_Aluminium_frame_01.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -36,7 +36,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x400_Aluminium_green_02.zip](1280x400_Aluminium_green_02.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -54,7 +54,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x400_Aluminium_orange_03.zip](1280x400_Aluminium_orange_03.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -72,7 +72,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x400_MomentumMxV.zip](1280x400_MomentumMxV.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -96,7 +96,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x400_PMN_LedStrypes.zip](1280x400_PMN_LedStrypes.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -114,7 +114,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x400_TA_symphonica_01.zip](1280x400_TA_symphonica_01.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -132,7 +132,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x400_black_blue_square.zip](1280x400_black_blue_square.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -150,7 +150,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x400_black_white_arrow_bottom.zip](1280x400_black_white_arrow_bottom.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -168,7 +168,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x400_black_white_arrow_top.zip](1280x400_black_white_arrow_top.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -186,7 +186,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x400_bo_beosound9000.zip](1280x400_bo_beosound9000.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -204,7 +204,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x400_cyrus_40_st.zip](1280x400_cyrus_40_st.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -222,7 +222,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x400_dan_dagostimo_mlife.zip](1280x400_dan_dagostimo_mlife.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -240,7 +240,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x400_esoteric-grandioso-t1.zip](1280x400_esoteric-grandioso-t1.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -281,7 +281,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x400_g5_201_meters.zip](1280x400_g5_201_meters.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -322,7 +322,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x400_g5_202_meters.zip](1280x400_g5_202_meters.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -363,7 +363,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x400_g5_203_meters.zip](1280x400_g5_203_meters.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -404,7 +404,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x400_g5_204_meters.zip](1280x400_g5_204_meters.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -443,7 +443,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x400_g5_205_meters.zip](1280x400_g5_205_meters.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -461,7 +461,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x400_mcintosh_mx100.zip](1280x400_mcintosh_mx100.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -479,7 +479,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x400_nad_6100.zip](1280x400_nad_6100.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -497,7 +497,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x400_nad_6325.zip](1280x400_nad_6325.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -515,7 +515,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x400_nad_d3045.zip](1280x400_nad_d3045.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -533,7 +533,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x400_nad_m10_1.zip](1280x400_nad_m10_1.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -551,7 +551,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x400_nad_m10_2.zip](1280x400_nad_m10_2.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -569,7 +569,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x400_nad_m10_3.zip](1280x400_nad_m10_3.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -587,7 +587,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x400_nad_m33_1.zip](1280x400_nad_m33_1.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -605,7 +605,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x400_rose_rs150.zip](1280x400_rose_rs150.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -623,7 +623,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x400_rose_rs250.zip](1280x400_rose_rs250.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -641,7 +641,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x400_technics_SUR1000.zip](1280x400_technics_SUR1000.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 
@@ -659,7 +659,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x400_volumio1.zip](1280x400_volumio1.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 

@@ -29,7 +29,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1920x720_g5_701_meters.zip](1920x720_g5_701_meters.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ---
 

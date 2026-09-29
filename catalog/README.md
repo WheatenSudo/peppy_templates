@@ -25,7 +25,7 @@ Browse templates by screen resolution.
 
 ## Installation Instructions
 
-All paths are relative to `/data/INTERNAL/peppy_screensaver/`
+On Glass, the Catalog tab of the Manager installs any template with one press. By hand, the paths are relative to `/data/INTERNAL/glass/` on Glass and to `/data/INTERNAL/peppy_screensaver/` on PeppyMeter Screensaver (legacy).
 
 ### VU Meter Only (from template_peppy)
 
@@ -37,7 +37,8 @@ All paths are relative to `/data/INTERNAL/peppy_screensaver/`
 ```
 Download: 800x480_retro_wood.zip
 Extract:  800x480_retro_wood/
-Copy to:  /data/INTERNAL/peppy_screensaver/templates/800x480_retro_wood/
+Copy to:  /data/INTERNAL/glass/templates/800x480_retro_wood/            (Glass)
+          /data/INTERNAL/peppy_screensaver/templates/800x480_retro_wood/ (legacy)
 ```
 
 ### Spectrum Only (from templates_spectrum)
@@ -50,7 +51,8 @@ Copy to:  /data/INTERNAL/peppy_screensaver/templates/800x480_retro_wood/
 ```
 Download: 800x480_retro_wood.zip
 Extract:  800x480_retro_wood/
-Copy to:  /data/INTERNAL/peppy_screensaver/templates_spectrum/800x480_retro_wood/
+Copy to:  /data/INTERNAL/glass/templates_spectrum/800x480_retro_wood/            (Glass)
+          /data/INTERNAL/peppy_screensaver/templates_spectrum/800x480_retro_wood/ (legacy)
 ```
 
 ### Combined VU + Spectrum (from templates_peppy_spectrum)
@@ -68,8 +70,10 @@ Extract:  800x480_retro_wood/
 Inside:   800x480_retro_wood/templates/800x480_retro_wood/
           800x480_retro_wood/templates_spectrum/800x480_retro_wood/
 
-Copy to:  /data/INTERNAL/peppy_screensaver/templates/800x480_retro_wood/
-          /data/INTERNAL/peppy_screensaver/templates_spectrum/800x480_retro_wood/
+Copy to (Glass):  /data/INTERNAL/glass/templates/800x480_retro_wood/
+                  /data/INTERNAL/glass/templates_spectrum/800x480_retro_wood/
+Copy to (legacy): /data/INTERNAL/peppy_screensaver/templates/800x480_retro_wood/
+                  /data/INTERNAL/peppy_screensaver/templates_spectrum/800x480_retro_wood/
 ```
 
 ---

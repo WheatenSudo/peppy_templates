@@ -92,17 +92,14 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 **Download:** [1280x720_glass_analyser.zip](1280x720_glass_analyser.zip)
 
+**Requires Glass** (uses the spectrum analyser, interactive buttons, Glass-only meter keys, pictures that cover their box; it does not run on PeppyMeter Screensaver).
+
 **Install on Glass (both required):**
 1. Extract the zip file
 2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
 3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
 
 Or press Install on the Catalog tab of the Glass Manager.
-
-**Install on PeppyMeter Screensaver, legacy (both required):**
-1. Extract the zip file
-2. Copy `templates/` contents to `/data/INTERNAL/peppy_screensaver/templates/`
-3. Copy `templates_spectrum/` contents to `/data/INTERNAL/peppy_screensaver/templates_spectrum/`
 
 ---
 
@@ -151,17 +148,14 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 **Download:** [1280x720_glass_looks.zip](1280x720_glass_looks.zip)
 
+**Requires Glass** (uses the spectrum analyser; it does not run on PeppyMeter Screensaver).
+
 **Install on Glass (both required):**
 1. Extract the zip file
 2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
 3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
 
 Or press Install on the Catalog tab of the Glass Manager.
-
-**Install on PeppyMeter Screensaver, legacy (both required):**
-1. Extract the zip file
-2. Copy `templates/` contents to `/data/INTERNAL/peppy_screensaver/templates/`
-3. Copy `templates_spectrum/` contents to `/data/INTERNAL/peppy_screensaver/templates_spectrum/`
 
 ---
 

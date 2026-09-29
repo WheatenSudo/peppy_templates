@@ -1,6 +1,6 @@
 # PeppyMeter Templates
 
-Community collection of meter skins and spectrum visualizations for [PeppyMeter Screensaver](https://github.com/foonerd/peppy_screensaver).
+Community collection of meter skins and spectrum visualizations for [Glass](https://github.com/foonerd/glass) and, before it, [PeppyMeter Screensaver](https://github.com/foonerd/peppy_screensaver). Glass installs any of them from the Catalog tab of its Manager; the paths below are for a copy by hand.
 
 ## Browse Templates
 
@@ -30,7 +30,7 @@ Each category contains:
 | `templates_spectrum` | Spectrum only | `templates_spectrum/` |
 | `templates_peppy_spectrum` | Both combined | Both folders (see below) |
 
-All paths relative to `/data/INTERNAL/peppy_screensaver/`
+All paths relative to `/data/INTERNAL/glass/` on Glass, and to `/data/INTERNAL/peppy_screensaver/` on PeppyMeter Screensaver (legacy).
 
 ## Installation
 
@@ -38,26 +38,28 @@ All paths relative to `/data/INTERNAL/peppy_screensaver/`
 
 1. Download the zip file
 2. Extract the zip file
-3. Copy the extracted folder to `/data/INTERNAL/peppy_screensaver/templates/`
+3. Copy the extracted folder to `/data/INTERNAL/glass/templates/` (Glass) or `/data/INTERNAL/peppy_screensaver/templates/` (legacy)
 
 **Example:**
 ```
 Download: 800x480_retro_wood.zip
 Extract:  800x480_retro_wood/
-Copy to:  /data/INTERNAL/peppy_screensaver/templates/800x480_retro_wood/
+Copy to:  /data/INTERNAL/glass/templates/800x480_retro_wood/             (Glass)
+          /data/INTERNAL/peppy_screensaver/templates/800x480_retro_wood/  (legacy)
 ```
 
 ### Spectrum Only (from templates_spectrum)
 
 1. Download the zip file
 2. Extract the zip file
-3. Copy the extracted folder to `/data/INTERNAL/peppy_screensaver/templates_spectrum/`
+3. Copy the extracted folder to `/data/INTERNAL/glass/templates_spectrum/` (Glass) or `/data/INTERNAL/peppy_screensaver/templates_spectrum/` (legacy)
 
 **Example:**
 ```
 Download: 800x480_retro_wood.zip
 Extract:  800x480_retro_wood/
-Copy to:  /data/INTERNAL/peppy_screensaver/templates_spectrum/800x480_retro_wood/
+Copy to:  /data/INTERNAL/glass/templates_spectrum/800x480_retro_wood/             (Glass)
+          /data/INTERNAL/peppy_screensaver/templates_spectrum/800x480_retro_wood/  (legacy)
 ```
 
 ### Combined VU + Spectrum (from templates_peppy_spectrum)
@@ -65,8 +67,8 @@ Copy to:  /data/INTERNAL/peppy_screensaver/templates_spectrum/800x480_retro_wood
 1. Download the zip file
 2. Extract the zip file
 3. Open the extracted folder - you will see `templates/` and `templates_spectrum/` subfolders
-4. Copy the contents of `templates/` to `/data/INTERNAL/peppy_screensaver/templates/`
-5. Copy the contents of `templates_spectrum/` to `/data/INTERNAL/peppy_screensaver/templates_spectrum/`
+4. Copy the contents of `templates/` to `/data/INTERNAL/glass/templates/` (Glass) or `/data/INTERNAL/peppy_screensaver/templates/` (legacy)
+5. Copy the contents of `templates_spectrum/` to `/data/INTERNAL/glass/templates_spectrum/` (Glass) or `/data/INTERNAL/peppy_screensaver/templates_spectrum/` (legacy)
 
 **Example:**
 ```
@@ -76,10 +78,12 @@ Inside:   800x480_retro_wood/templates/800x480_retro_wood/
           800x480_retro_wood/templates_spectrum/800x480_retro_wood/
 
 Copy:     templates/800x480_retro_wood/ 
-      to: /data/INTERNAL/peppy_screensaver/templates/800x480_retro_wood/
+      to: /data/INTERNAL/glass/templates/800x480_retro_wood/             (Glass)
+          /data/INTERNAL/peppy_screensaver/templates/800x480_retro_wood/  (legacy)
 
 Copy:     templates_spectrum/800x480_retro_wood/
-      to: /data/INTERNAL/peppy_screensaver/templates_spectrum/800x480_retro_wood/
+      to: /data/INTERNAL/glass/templates_spectrum/800x480_retro_wood/             (Glass)
+          /data/INTERNAL/peppy_screensaver/templates_spectrum/800x480_retro_wood/  (legacy)
 ```
 
 ## Machine-Readable Catalog

@@ -458,7 +458,7 @@ EOF
         local this_label=""
         case "$category" in
             "template_peppy")
-                this_install_info="Extract and copy folder to \`/data/INTERNAL/peppy_screensaver/templates/\`"
+                this_install_info="Extract and copy the folder to \`/data/INTERNAL/glass/templates/\` on Glass, or to \`/data/INTERNAL/peppy_screensaver/templates/\` on PeppyMeter Screensaver (legacy)"
                 this_label="VU Meter"
                 ;;
             "templates_peppy_spectrum")
@@ -466,7 +466,7 @@ EOF
                 this_label="VU Meter + Spectrum (combined)"
                 ;;
             "templates_spectrum")
-                this_install_info="Extract and copy folder to \`/data/INTERNAL/peppy_screensaver/templates_spectrum/\`"
+                this_install_info="Extract and copy the folder to \`/data/INTERNAL/glass/templates_spectrum/\` on Glass, or to \`/data/INTERNAL/peppy_screensaver/templates_spectrum/\` on PeppyMeter Screensaver (legacy)"
                 this_label="Spectrum"
                 ;;
         esac
@@ -482,7 +482,7 @@ EOF
 **Complete Set (both required):**
 
 - ${this_label}: [${template_name}.zip](${template_name}.zip)
-  - Extract and copy folder to \`/data/INTERNAL/peppy_screensaver/templates/\`
+  - Extract and copy the folder to \`/data/INTERNAL/glass/templates/\` on Glass, or to \`/data/INTERNAL/peppy_screensaver/templates/\` on PeppyMeter Screensaver (legacy)
 EOF
             echo "$companions" | while IFS='|' read -r comp_category comp_name; do
                 [[ -z "$comp_category" ]] && continue
@@ -491,11 +491,11 @@ EOF
                 case "$comp_category" in
                     "template_peppy")
                         comp_label="VU Meter"
-                        comp_install="Extract and copy folder to \`/data/INTERNAL/peppy_screensaver/templates/\`"
+                        comp_install="Extract and copy the folder to \`/data/INTERNAL/glass/templates/\` on Glass, or to \`/data/INTERNAL/peppy_screensaver/templates/\` on PeppyMeter Screensaver (legacy)"
                         ;;
                     "templates_spectrum")
                         comp_label="Spectrum"
-                        comp_install="Extract and copy folder to \`/data/INTERNAL/peppy_screensaver/templates_spectrum/\`"
+                        comp_install="Extract and copy the folder to \`/data/INTERNAL/glass/templates_spectrum/\` on Glass, or to \`/data/INTERNAL/peppy_screensaver/templates_spectrum/\` on PeppyMeter Screensaver (legacy)"
                         ;;
                 esac
                 local comp_path="${comp_category}/${res_path}/${comp_name}.zip"
@@ -508,7 +508,14 @@ EOF
             cat >> "$dir/README.md" << EOF
 **Download:** [${template_name}.zip](${template_name}.zip)
 
-**Install (both required):**
+**Install on Glass (both required):**
+1. Extract the zip file
+2. Copy \`templates/\` contents to \`/data/INTERNAL/glass/templates/\`
+3. Copy \`templates_spectrum/\` contents to \`/data/INTERNAL/glass/templates_spectrum/\`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+**Install on PeppyMeter Screensaver, legacy (both required):**
 1. Extract the zip file
 2. Copy \`templates/\` contents to \`/data/INTERNAL/peppy_screensaver/templates/\`
 3. Copy \`templates_spectrum/\` contents to \`/data/INTERNAL/peppy_screensaver/templates_spectrum/\`
@@ -611,7 +618,7 @@ EOF
 
 ## Installation Instructions
 
-All paths are relative to `/data/INTERNAL/peppy_screensaver/`
+On Glass, the Catalog tab of the Manager installs any template with one press. By hand, the paths are relative to `/data/INTERNAL/glass/` on Glass and to `/data/INTERNAL/peppy_screensaver/` on PeppyMeter Screensaver (legacy).
 
 ### VU Meter Only (from template_peppy)
 
@@ -623,7 +630,8 @@ All paths are relative to `/data/INTERNAL/peppy_screensaver/`
 ```
 Download: 800x480_retro_wood.zip
 Extract:  800x480_retro_wood/
-Copy to:  /data/INTERNAL/peppy_screensaver/templates/800x480_retro_wood/
+Copy to:  /data/INTERNAL/glass/templates/800x480_retro_wood/            (Glass)
+          /data/INTERNAL/peppy_screensaver/templates/800x480_retro_wood/ (legacy)
 ```
 
 ### Spectrum Only (from templates_spectrum)
@@ -636,7 +644,8 @@ Copy to:  /data/INTERNAL/peppy_screensaver/templates/800x480_retro_wood/
 ```
 Download: 800x480_retro_wood.zip
 Extract:  800x480_retro_wood/
-Copy to:  /data/INTERNAL/peppy_screensaver/templates_spectrum/800x480_retro_wood/
+Copy to:  /data/INTERNAL/glass/templates_spectrum/800x480_retro_wood/            (Glass)
+          /data/INTERNAL/peppy_screensaver/templates_spectrum/800x480_retro_wood/ (legacy)
 ```
 
 ### Combined VU + Spectrum (from templates_peppy_spectrum)
@@ -654,8 +663,10 @@ Extract:  800x480_retro_wood/
 Inside:   800x480_retro_wood/templates/800x480_retro_wood/
           800x480_retro_wood/templates_spectrum/800x480_retro_wood/
 
-Copy to:  /data/INTERNAL/peppy_screensaver/templates/800x480_retro_wood/
-          /data/INTERNAL/peppy_screensaver/templates_spectrum/800x480_retro_wood/
+Copy to (Glass):  /data/INTERNAL/glass/templates/800x480_retro_wood/
+                  /data/INTERNAL/glass/templates_spectrum/800x480_retro_wood/
+Copy to (legacy): /data/INTERNAL/peppy_screensaver/templates/800x480_retro_wood/
+                  /data/INTERNAL/peppy_screensaver/templates_spectrum/800x480_retro_wood/
 ```
 
 ---
@@ -703,11 +714,11 @@ EOF
         case "$category" in
             "template_peppy")
                 type_badge="VU Meter"
-                install_info="Extract and copy folder to \`/data/INTERNAL/peppy_screensaver/templates/\`"
+                install_info="Extract and copy the folder to \`/data/INTERNAL/glass/templates/\` on Glass, or to \`/data/INTERNAL/peppy_screensaver/templates/\` on PeppyMeter Screensaver (legacy)"
                 ;;
             "templates_spectrum")
                 type_badge="Spectrum"
-                install_info="Extract and copy folder to \`/data/INTERNAL/peppy_screensaver/templates_spectrum/\`"
+                install_info="Extract and copy the folder to \`/data/INTERNAL/glass/templates_spectrum/\` on Glass, or to \`/data/INTERNAL/peppy_screensaver/templates_spectrum/\` on PeppyMeter Screensaver (legacy)"
                 ;;
             "templates_peppy_spectrum")
                 type_badge="Combined"
@@ -765,7 +776,14 @@ EOF
         # Show install instructions based on type
         if [[ "$install_info" == "BOTH_PARTS" ]]; then
             cat >> "catalog/${res}.md" << EOF
-**Install (both required):**
+**Install on Glass (both required):**
+1. Extract the zip file
+2. Copy \`templates/${template_name}/\` to \`/data/INTERNAL/glass/templates/\`
+3. Copy \`templates_spectrum/${template_name}/\` to \`/data/INTERNAL/glass/templates_spectrum/\`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+**Install on PeppyMeter Screensaver, legacy (both required):**
 1. Extract the zip file
 2. Copy \`templates/${template_name}/\` to \`/data/INTERNAL/peppy_screensaver/templates/\`
 3. Copy \`templates_spectrum/${template_name}/\` to \`/data/INTERNAL/peppy_screensaver/templates_spectrum/\`

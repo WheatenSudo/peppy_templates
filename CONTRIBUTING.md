@@ -28,7 +28,7 @@ Thank you for contributing to the PeppyMeter template collection.
         +-- *.png (assets)
 ```
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
 
 ### templates_spectrum (Spectrum only)
 
@@ -40,7 +40,7 @@ Thank you for contributing to the PeppyMeter template collection.
         +-- *.png (assets)
 ```
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates_spectrum/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates_spectrum/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates_spectrum/` on PeppyMeter Screensaver (legacy)
 
 ### templates_peppy_spectrum (Combined - Preferred)
 
@@ -64,8 +64,8 @@ This is the **preferred category** for skins that have both VU meter and spectru
 1. Download the zip file
 2. Extract the zip file
 3. Open the extracted folder - you will see `templates/` and `templates_spectrum/` subfolders
-4. Copy the contents of `templates/` to `/data/INTERNAL/peppy_screensaver/templates/`
-5. Copy the contents of `templates_spectrum/` to `/data/INTERNAL/peppy_screensaver/templates_spectrum/`
+4. Copy the contents of `templates/` to `/data/INTERNAL/glass/templates/` (Glass) or `/data/INTERNAL/peppy_screensaver/templates/` (legacy)
+5. Copy the contents of `templates_spectrum/` to `/data/INTERNAL/glass/templates_spectrum/` (Glass) or `/data/INTERNAL/peppy_screensaver/templates_spectrum/` (legacy)
 
 ## Browsing Templates
 

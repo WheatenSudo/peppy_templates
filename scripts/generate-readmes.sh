@@ -348,6 +348,30 @@ get_meter_info() {
                 echo "No"
             fi
             ;;
+        "glassonly")
+            # What only Glass draws: the spectrum analyser (a section with a
+            # style), interactive buttons, the volume as a number, the type
+            # icon's label, pictures that cover their box. A template using
+            # any of these does not run on PeppyMeter Screensaver.
+            local spectrum_content
+            spectrum_content=$( (unzip -p "$zip_file" "*/spectrum.txt" 2>/dev/null; unzip -p "$zip_file" "spectrum.txt" 2>/dev/null) | tr -d '\r' || true)
+            local meters_content
+            meters_content=$( (unzip -p "$zip_file" "*/meters.txt" 2>/dev/null; unzip -p "$zip_file" "meters.txt" 2>/dev/null) | tr -d '\r' || true)
+            local why=""
+            if grep -qiE '^[[:space:]]*style[[:space:]]*=' <<< "$spectrum_content"; then
+                why="the spectrum analyser"
+            fi
+            if grep -qiE '^[[:space:]]*button\.' <<< "$meters_content"; then
+                why="${why:+$why, }interactive buttons"
+            fi
+            if grep -qiE '^[[:space:]]*(volume\.value\.|playinfo\.type\.label|touch\.margin|interactive[[:space:]]*=)' <<< "$meters_content"; then
+                why="${why:+$why, }Glass-only meter keys"
+            fi
+            if grep -qiE '^[[:space:]]*[a-z0-9.]*scale[[:space:]]*=[[:space:]]*cover' <<< "$meters_content"; then
+                why="${why:+$why, }pictures that cover their box"
+            fi
+            echo "$why"
+            ;;
     esac
 }
 
@@ -401,6 +425,7 @@ EOF
         local has_extended=$(get_meter_info "$zip_file" "extended")
         local has_spectrum=$(get_meter_info "$zip_file" "spectrum")
         local has_albumart=$(get_meter_info "$zip_file" "albumart")
+        local glass_only=$(get_meter_info "$zip_file" "glassonly")
         
         # Determine if this is a pack
         local is_pack="No"
@@ -504,10 +529,19 @@ EOF
             done
             echo "" >> "$dir/README.md"
         elif [[ "$this_install_info" == "BOTH_PARTS" ]]; then
-            # Combined template - show both install steps
+            # Combined template - show both install steps, or Glass alone
+            # when the template uses what only Glass draws.
             cat >> "$dir/README.md" << EOF
 **Download:** [${template_name}.zip](${template_name}.zip)
 
+EOF
+            if [[ -n "$glass_only" ]]; then
+                cat >> "$dir/README.md" << EOF
+**Requires Glass** (uses ${glass_only}; it does not run on PeppyMeter Screensaver).
+
+EOF
+            fi
+            cat >> "$dir/README.md" << EOF
 **Install on Glass (both required):**
 1. Extract the zip file
 2. Copy \`templates/\` contents to \`/data/INTERNAL/glass/templates/\`
@@ -515,14 +549,22 @@ EOF
 
 Or press Install on the Catalog tab of the Glass Manager.
 
+EOF
+            if [[ -z "$glass_only" ]]; then
+                cat >> "$dir/README.md" << EOF
 **Install on PeppyMeter Screensaver, legacy (both required):**
 1. Extract the zip file
 2. Copy \`templates/\` contents to \`/data/INTERNAL/peppy_screensaver/templates/\`
 3. Copy \`templates_spectrum/\` contents to \`/data/INTERNAL/peppy_screensaver/templates_spectrum/\`
 
 EOF
+            fi
         else
-            # No companions - single download
+            # No companions - single download; Glass alone when the
+            # template uses what only Glass draws.
+            if [[ -n "$glass_only" ]]; then
+                this_install_info="Requires Glass (uses ${glass_only}). ${this_install_info%% on Glass, or to*} on Glass."
+            fi
             cat >> "$dir/README.md" << EOF
 **Download:** [${template_name}.zip](${template_name}.zip)
 
@@ -730,6 +772,7 @@ EOF
         local meter_name=$(get_meter_info "$zip_file" "name")
         local meter_count=$(get_meter_info "$zip_file" "count")
         local meter_type=$(get_meter_info "$zip_file" "type")
+        local glass_only=$(get_meter_info "$zip_file" "glassonly")
         
         # Check if preview exists in category folder
         local preview_path=""
@@ -773,7 +816,14 @@ EOF
 
 EOF
 
-        # Show install instructions based on type
+        # Show install instructions based on type, Glass alone when the
+        # template uses what only Glass draws.
+        if [[ -n "$glass_only" ]]; then
+            cat >> "catalog/${res}.md" << EOF
+**Requires Glass** (uses ${glass_only}; it does not run on PeppyMeter Screensaver).
+
+EOF
+        fi
         if [[ "$install_info" == "BOTH_PARTS" ]]; then
             cat >> "catalog/${res}.md" << EOF
 **Install on Glass (both required):**
@@ -783,13 +833,20 @@ EOF
 
 Or press Install on the Catalog tab of the Glass Manager.
 
+EOF
+            if [[ -z "$glass_only" ]]; then
+                cat >> "catalog/${res}.md" << EOF
 **Install on PeppyMeter Screensaver, legacy (both required):**
 1. Extract the zip file
 2. Copy \`templates/${template_name}/\` to \`/data/INTERNAL/peppy_screensaver/templates/\`
 3. Copy \`templates_spectrum/${template_name}/\` to \`/data/INTERNAL/peppy_screensaver/templates_spectrum/\`
 
 EOF
+            fi
         else
+            if [[ -n "$glass_only" ]]; then
+                install_info="${install_info%% on Glass, or to*} on Glass."
+            fi
             cat >> "catalog/${res}.md" << EOF
 **Install:** ${install_info}
 

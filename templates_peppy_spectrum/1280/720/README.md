@@ -61,7 +61,7 @@ Combined VU Meter + Spectrum templates (self-contained with both parts).
 
 | Property | Value |
 |----------|-------|
-| Template Pack | Yes (4 templates) |
+| Template Pack | Yes (6 templates) |
 | Meter Type | linear |
 | Extended Config | Yes |
 | Spectrum | Yes |
@@ -73,8 +73,52 @@ Combined VU Meter + Spectrum templates (self-contained with both parts).
 - lamps
 - glow
 - wire
+- orbit
+- trace
 
 **Download:** [1280x720_glass_analyser.zip](1280x720_glass_analyser.zip)
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/peppy_screensaver/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/peppy_screensaver/templates_spectrum/`
+
+---
+
+## 1280x720_glass_looks
+
+![1280x720_glass_looks](previews/1280x720_glass_looks.png)
+
+| Property | Value |
+|----------|-------|
+| Template Pack | Yes (18 templates) |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | No |
+
+**Included Meters:**
+
+- bars-plain
+- bars-rounded
+- bars-led
+- bars-lumi
+- bars-outline
+- bars-mirror-reflex
+- bars-stereo-split
+- bars-sides
+- graph-fill
+- graph-line-peaks
+- radial-out
+- radial-invert-spin
+- radial-halves
+- scales-hertz
+- scales-notes
+- palette-own-stops
+- color-by-level
+- level-linear
+
+**Download:** [1280x720_glass_looks.zip](1280x720_glass_looks.zip)
 
 **Install (both required):**
 1. Extract the zip file

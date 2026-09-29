@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-09-28T21:48:30+01:00",
+ "updated": "2026-09-29T05:36:41+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/peppy_templates/main/",
  "templates": [
   {
@@ -5252,8 +5252,8 @@
    "width": 1280,
    "height": 720,
    "zip": "templates_peppy_spectrum/1280/720/1280x720_glass_analyser.zip",
-   "bytes": 291844,
-   "sha256": "b4c3ea181a9427e6c80b569acb90f91c0cad11209eb46d01d8638eb2d8b166f2",
+   "bytes": 203595,
+   "sha256": "5fd7b406733f7e68def04a3ea6ac02de72123e12a512edd89b8dc7ca2f557ae1",
    "units": [
     {
      "kind": "spectrum",
@@ -5264,7 +5264,9 @@
       "studio",
       "lamps",
       "glow",
-      "wire"
+      "wire",
+      "orbit",
+      "trace"
      ]
     },
     {
@@ -5276,12 +5278,80 @@
       "studio",
       "lamps",
       "glow",
-      "wire"
+      "wire",
+      "orbit",
+      "trace"
      ]
     }
    ],
    "preview": "templates_peppy_spectrum/1280/720/previews/1280x720_glass_analyser.png",
    "thumb": "catalog/thumbs/1280x720_glass_analyser.jpg"
+  },
+  {
+   "name": "1280x720_glass_looks",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 720,
+   "zip": "templates_peppy_spectrum/1280/720/1280x720_glass_looks.zip",
+   "bytes": 124621,
+   "sha256": "a93420ecee6347686294e4312780c0f1b38a34057bb5a5b3254221a98487b537",
+   "units": [
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x720_glass_looks/templates_spectrum/1280x720_glass_looks/",
+     "folder": "1280x720_glass_looks",
+     "names": [
+      "bars-plain",
+      "bars-rounded",
+      "bars-led",
+      "bars-lumi",
+      "bars-outline",
+      "bars-mirror-reflex",
+      "bars-stereo-split",
+      "bars-sides",
+      "graph-fill",
+      "graph-line-peaks",
+      "radial-out",
+      "radial-invert-spin",
+      "radial-halves",
+      "scales-hertz",
+      "scales-notes",
+      "palette-own-stops",
+      "color-by-level",
+      "level-linear"
+     ]
+    },
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x720_glass_looks/templates/1280x720_glass_looks/",
+     "folder": "1280x720_glass_looks",
+     "names": [
+      "bars-plain",
+      "bars-rounded",
+      "bars-led",
+      "bars-lumi",
+      "bars-outline",
+      "bars-mirror-reflex",
+      "bars-stereo-split",
+      "bars-sides",
+      "graph-fill",
+      "graph-line-peaks",
+      "radial-out",
+      "radial-invert-spin",
+      "radial-halves",
+      "scales-hertz",
+      "scales-notes",
+      "palette-own-stops",
+      "color-by-level",
+      "level-linear"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/720/previews/1280x720_glass_looks.png",
+   "thumb": "catalog/thumbs/1280x720_glass_looks.jpg"
   },
   {
    "name": "1280x800_g5_410_ms",

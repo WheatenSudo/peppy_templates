@@ -110,7 +110,7 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 | Property | Value |
 |----------|-------|
-| Template Pack | Yes (29 templates) |
+| Template Pack | Yes (31 templates) |
 | Meter Type | linear |
 | Extended Config | Yes |
 | Spectrum | Yes |
@@ -147,6 +147,8 @@ Or press Install on the Catalog tab of the Glass Manager.
 - ribbon
 - echo
 - pair
+- prism
+- dots-held
 
 **Download:** [1280x720_glass_looks.zip](1280x720_glass_looks.zip)
 

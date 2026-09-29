@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-09-29T06:55:11Z",
+ "updated": "2026-09-29T10:29:02+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/peppy_templates/main/",
  "templates": [
   {
@@ -5297,8 +5297,8 @@
    "width": 1280,
    "height": 720,
    "zip": "templates_peppy_spectrum/1280/720/1280x720_glass_looks.zip",
-   "bytes": 235679,
-   "sha256": "38b9dcf6c316247c2fb28b4f01646cf0d7352ad7ae690084773d2811034fe2cc",
+   "bytes": 235845,
+   "sha256": "db124a36001b368d6b454a23a1dbafa07a46d26ed26d81a8ea1a8cc3ab614c24",
    "units": [
     {
      "kind": "spectrum",
@@ -5335,7 +5335,9 @@
       "ribbon",
       "echo",
       "pair-left",
-      "pair-right"
+      "pair-right",
+      "prism",
+      "dots-held"
      ]
     },
     {
@@ -5372,7 +5374,9 @@
       "fluid",
       "ribbon",
       "echo",
-      "pair"
+      "pair",
+      "prism",
+      "dots-held"
      ]
     }
    ],

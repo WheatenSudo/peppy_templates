@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-09-29T06:00:47Z",
+ "updated": "2026-09-29T07:53:29+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/peppy_templates/main/",
  "templates": [
   {
@@ -5252,8 +5252,8 @@
    "width": 1280,
    "height": 720,
    "zip": "templates_peppy_spectrum/1280/720/1280x720_glass_analyser.zip",
-   "bytes": 203595,
-   "sha256": "5fd7b406733f7e68def04a3ea6ac02de72123e12a512edd89b8dc7ca2f557ae1",
+   "bytes": 140520,
+   "sha256": "2bb835af807e85486d0289b4a3322aac7a32c63c971f37b9300bc40fbfa1bffe",
    "units": [
     {
      "kind": "spectrum",
@@ -5266,7 +5266,9 @@
       "glow",
       "wire",
       "orbit",
-      "trace"
+      "trace",
+      "pair-left",
+      "pair-right"
      ]
     },
     {
@@ -5280,7 +5282,8 @@
       "glow",
       "wire",
       "orbit",
-      "trace"
+      "trace",
+      "pair"
      ]
     }
    ],
@@ -5294,8 +5297,8 @@
    "width": 1280,
    "height": 720,
    "zip": "templates_peppy_spectrum/1280/720/1280x720_glass_looks.zip",
-   "bytes": 220079,
-   "sha256": "e0e110323f3a75cd26c46048b0bae3e40a00be67931dfeb3bdd9f56743fee6ba",
+   "bytes": 235679,
+   "sha256": "38b9dcf6c316247c2fb28b4f01646cf0d7352ad7ae690084773d2811034fe2cc",
    "units": [
     {
      "kind": "spectrum",
@@ -5330,7 +5333,9 @@
       "glow",
       "fluid",
       "ribbon",
-      "echo"
+      "echo",
+      "pair-left",
+      "pair-right"
      ]
     },
     {
@@ -5366,7 +5371,8 @@
       "glow",
       "fluid",
       "ribbon",
-      "echo"
+      "echo",
+      "pair"
      ]
     }
    ],

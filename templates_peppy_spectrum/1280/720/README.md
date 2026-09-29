@@ -75,7 +75,7 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 | Property | Value |
 |----------|-------|
-| Template Pack | Yes (6 templates) |
+| Template Pack | Yes (7 templates) |
 | Meter Type | linear |
 | Extended Config | Yes |
 | Spectrum | Yes |
@@ -89,6 +89,7 @@ Or press Install on the Catalog tab of the Glass Manager.
 - wire
 - orbit
 - trace
+- pair
 
 **Download:** [1280x720_glass_analyser.zip](1280x720_glass_analyser.zip)
 
@@ -109,7 +110,7 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 | Property | Value |
 |----------|-------|
-| Template Pack | Yes (28 templates) |
+| Template Pack | Yes (29 templates) |
 | Meter Type | linear |
 | Extended Config | Yes |
 | Spectrum | Yes |
@@ -145,6 +146,7 @@ Or press Install on the Catalog tab of the Glass Manager.
 - fluid
 - ribbon
 - echo
+- pair
 
 **Download:** [1280x720_glass_looks.zip](1280x720_glass_looks.zip)
 

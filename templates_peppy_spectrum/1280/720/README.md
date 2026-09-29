@@ -4,6 +4,41 @@ Combined VU Meter + Spectrum templates (self-contained with both parts).
 
 ---
 
+## 1280x720_Pioneer_PLX-500
+
+![1280x720_Pioneer_PLX-500](previews/1280x720_Pioneer_PLX-500.png)
+
+| Property | Value |
+|----------|-------|
+| Template Pack | Yes (7 templates) |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Included Meters:**
+
+- PLX-500 VU
+- PLX-500 Bars
+- PLX-500 Glow
+- PLX-500 Snow
+- PLX-500 Wave
+- PLX-500 Ink
+- PLX-500 Ink Wave
+
+**Download:** [1280x720_Pioneer_PLX-500.zip](1280x720_Pioneer_PLX-500.zip)
+
+**Requires Glass** (uses the spectrum analyser, interactive buttons, Glass-only meter keys; it does not run on PeppyMeter Screensaver).
+
+**Install on Glass (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
 ## 1280x720_g5_450_sm
 
 ![1280x720_g5_450_sm](previews/1280x720_g5_450_sm.png)

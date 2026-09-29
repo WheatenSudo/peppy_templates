@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-09-29T10:29:02+01:00",
+ "updated": "2026-09-29T19:32:57+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/peppy_templates/main/",
  "templates": [
   {
@@ -1748,29 +1748,6 @@
    ],
    "preview": "template_peppy/1280/720/previews/1280x720_PMN_LedStrypes.png",
    "thumb": "catalog/thumbs/1280x720_PMN_LedStrypes.jpg"
-  },
-  {
-   "name": "1280x720_Pioneer_PLX-500",
-   "category": "template_peppy",
-   "kind": "meter",
-   "width": 1280,
-   "height": 720,
-   "zip": "template_peppy/1280/720/1280x720_Pioneer_PLX-500.zip",
-   "bytes": 2291638,
-   "sha256": "fcbf9a9676454192306c37a0fb4a512cd1d9f00661a18ab7c7a2be909107a937",
-   "units": [
-    {
-     "kind": "meter",
-     "install": "templates",
-     "from": "1280x720_Pioneer_PLX-500/",
-     "folder": "1280x720_Pioneer_PLX-500",
-     "names": [
-      "Pioneer PLX-500"
-     ]
-    }
-   ],
-   "preview": "template_peppy/1280/720/previews/1280x720_Pioneer_PLX-500.png",
-   "thumb": "catalog/thumbs/1280x720_Pioneer_PLX-500.jpg"
   },
   {
    "name": "1280x720_Pioneer_PLX-500L",
@@ -5163,6 +5140,55 @@
    ],
    "preview": "templates_peppy_spectrum/1280/400/previews/1280x400_g5_210_ms.png",
    "thumb": "catalog/thumbs/1280x400_g5_210_ms.jpg"
+  },
+  {
+   "name": "1280x720_Pioneer_PLX-500",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 720,
+   "zip": "templates_peppy_spectrum/1280/720/1280x720_Pioneer_PLX-500.zip",
+   "bytes": 4125695,
+   "sha256": "e0b6e7e49c613e54310be28d0d89774e844aaad5e912eeffbdbc1d3b17a6a720",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x720_Pioneer_PLX-500/templates/1280x720_Pioneer_PLX-500/",
+     "folder": "1280x720_Pioneer_PLX-500",
+     "names": [
+      "PLX-500 VU",
+      "PLX-500 Bars",
+      "PLX-500 Glow",
+      "PLX-500 Snow",
+      "PLX-500 Wave",
+      "PLX-500 Ink",
+      "PLX-500 Ink Wave"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x720_Pioneer_PLX-500/templates_spectrum/1280x720_Pioneer_PLX-500/",
+     "folder": "1280x720_Pioneer_PLX-500",
+     "names": [
+      "left-bars",
+      "right-bars",
+      "left-glow",
+      "right-glow",
+      "left-snow",
+      "right-snow",
+      "left-wave",
+      "right-wave",
+      "left-ink",
+      "right-ink",
+      "left-inkwave",
+      "right-inkwave"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/720/previews/1280x720_Pioneer_PLX-500.png",
+   "thumb": "catalog/thumbs/1280x720_Pioneer_PLX-500.jpg"
   },
   {
    "name": "1280x720_g5_450_sm",

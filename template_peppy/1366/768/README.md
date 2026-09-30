@@ -1,6 +1,6 @@
 # 768 Templates
 
-VU Meter templates for PeppyMeter Screensaver.
+Meter themes.
 
 ---
 
@@ -41,7 +41,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1366x768_g5_701_meters.zip](1366x768_g5_701_meters.zip)
 
-**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
 
 ---
 
@@ -82,7 +82,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1366x768_g5_702_meters.zip](1366x768_g5_702_meters.zip)
 
-**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
 
 ---
 
@@ -123,7 +123,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1366x768_g5_703_meters.zip](1366x768_g5_703_meters.zip)
 
-**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
 
 ---
 
@@ -164,7 +164,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1366x768_g5_704_meters.zip](1366x768_g5_704_meters.zip)
 
-**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
 
 ---
 
@@ -205,7 +205,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1366x768_g5_705_meters.zip](1366x768_g5_705_meters.zip)
 
-**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
 
 ---
 
@@ -261,7 +261,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1366x768_g5_710_Turntables.zip](1366x768_g5_710_Turntables.zip)
 
-**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
 
 ---
 
@@ -302,7 +302,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1366x768_g5_711_Tape_Recorder.zip](1366x768_g5_711_Tape_Recorder.zip)
 
-**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
 
 ---
 
@@ -338,7 +338,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1366x768_g5_712_Cassette.zip](1366x768_g5_712_Cassette.zip)
 
-**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
 
 ---
 
@@ -375,7 +375,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1366x768_g5_713_CD.zip](1366x768_g5_713_CD.zip)
 
-**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/` on Glass, or to `/data/INTERNAL/peppy_screensaver/templates/` on PeppyMeter Screensaver (legacy)
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
 
 ---
 
@@ -384,8 +384,8 @@ VU Meter templates for PeppyMeter Screensaver.
 
 1. Download the desired template zip(s)
 2. Extract each to the path shown next to its download link
-3. Select in plugin settings
+3. Choose it on the Themes tab of the Glass Manager
 
 ---
 
-*Part of [PeppyMeter Templates](https://github.com/foonerd/peppy_templates)*
+*Part of the [Glass theme collection](https://github.com/foonerd/peppy_templates)*

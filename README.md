@@ -52,7 +52,7 @@ Copy to:  /data/INTERNAL/glass/templates/800x480_retro_wood/
 {
   "version": 1,
   "updated": "<when the theme trees last changed>",
-  "base": "https://raw.githubusercontent.com/foonerd/peppy_templates/main/",
+  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
   "templates": [
     {
       "name": "800x480_retro_wood",

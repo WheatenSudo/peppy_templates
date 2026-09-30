@@ -5,8 +5,8 @@
 
 set -e
 
-REPO_URL="https://github.com/foonerd/peppy_templates"
-RAW_URL="https://raw.githubusercontent.com/foonerd/peppy_templates/main"
+REPO_URL="https://github.com/foonerd/glass_templates"
+RAW_URL="https://raw.githubusercontent.com/foonerd/glass_templates/main"
 ASSETS_DIR="assets"
 NO_PREVIEW="no-preview.svg"
 
@@ -700,7 +700,7 @@ Copy to:  /data/INTERNAL/glass/templates/800x480_retro_wood/
 
 ---
 
-*Generated for the [Glass theme collection](https://github.com/foonerd/peppy_templates)*
+*Generated for the [Glass theme collection](https://github.com/foonerd/glass_templates)*
 EOF
 
     echo "Generated: catalog/README.md"

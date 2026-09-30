@@ -74,4 +74,4 @@ Copy to:  /data/INTERNAL/glass/templates/800x480_retro_wood/
 
 ---
 
-*Generated for the [Glass theme collection](https://github.com/foonerd/peppy_templates)*
+*Generated for the [Glass theme collection](https://github.com/foonerd/glass_templates)*

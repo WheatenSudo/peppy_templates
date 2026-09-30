@@ -204,4 +204,4 @@ Meter themes.
 
 ---
 
-*Part of the [Glass theme collection](https://github.com/foonerd/peppy_templates)*
+*Part of the [Glass theme collection](https://github.com/foonerd/glass_templates)*

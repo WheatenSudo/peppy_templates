@@ -1,6 +1,10 @@
 # Glass Themes
 
-The community collection of themes for [Glass](https://github.com/foonerd/glass), the display for Volumio players: meter skins, spectrum looks and bundles of both. Glass installs any of them from the Catalog tab of its Manager. The repository and its folders keep the names they had when the collection began with PeppyMeter, whose themes Glass reads unchanged.
+The community collection of themes for [Glass](https://github.com/foonerd/glass), the display for Volumio players: meter skins, spectrum looks and bundles of both. Glass installs any of them from the Catalog tab of its Manager. The category folders keep the names they had when the collection began with PeppyMeter, whose themes Glass reads unchanged.
+
+## The old name
+
+This repository was `peppy_templates`, and that name still works: GitHub redirects links, clones and fetches to it, and the catalog index and the zips are served under it as well. PeppyMeter Screensaver installs and older Glass releases, which read `https://raw.githubusercontent.com/foonerd/peppy_templates/main/`, keep working unchanged. New links should use `glass_templates`.
 
 ## Browse
 

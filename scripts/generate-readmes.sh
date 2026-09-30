@@ -352,7 +352,7 @@ get_meter_info() {
             # What only Glass draws: the spectrum analyser (a section with a
             # style), interactive buttons, the volume as a number, the type
             # icon's label, pictures that cover their box. A template using
-            # any of these does not run on PeppyMeter Screensaver.
+            # the pages name them as Glass features.
             local spectrum_content
             spectrum_content=$( (unzip -p "$zip_file" "*/spectrum.txt" 2>/dev/null; unzip -p "$zip_file" "spectrum.txt" 2>/dev/null) | tr -d '\r' || true)
             local meters_content
@@ -392,7 +392,7 @@ EOF
     # Add category description
     case "$category" in
         "template_peppy")
-            echo "VU Meter templates for PeppyMeter Screensaver." >> "$dir/README.md"
+            echo "Meter themes." >> "$dir/README.md"
             ;;
         "templates_peppy_spectrum")
             echo "Combined VU Meter + Spectrum templates (self-contained with both parts)." >> "$dir/README.md"
@@ -483,7 +483,7 @@ EOF
         local this_label=""
         case "$category" in
             "template_peppy")
-                this_install_info="Extract and copy the folder to \`/data/INTERNAL/glass/templates/\` on Glass, or to \`/data/INTERNAL/peppy_screensaver/templates/\` on PeppyMeter Screensaver (legacy)"
+                this_install_info="Extract and copy the folder to \`/data/INTERNAL/glass/templates/\`"
                 this_label="VU Meter"
                 ;;
             "templates_peppy_spectrum")
@@ -491,7 +491,7 @@ EOF
                 this_label="VU Meter + Spectrum (combined)"
                 ;;
             "templates_spectrum")
-                this_install_info="Extract and copy the folder to \`/data/INTERNAL/glass/templates_spectrum/\` on Glass, or to \`/data/INTERNAL/peppy_screensaver/templates_spectrum/\` on PeppyMeter Screensaver (legacy)"
+                this_install_info="Extract and copy the folder to \`/data/INTERNAL/glass/templates_spectrum/\`"
                 this_label="Spectrum"
                 ;;
         esac
@@ -507,7 +507,7 @@ EOF
 **Complete Set (both required):**
 
 - ${this_label}: [${template_name}.zip](${template_name}.zip)
-  - Extract and copy the folder to \`/data/INTERNAL/glass/templates/\` on Glass, or to \`/data/INTERNAL/peppy_screensaver/templates/\` on PeppyMeter Screensaver (legacy)
+  - Extract and copy the folder to \`/data/INTERNAL/glass/templates/\`
 EOF
             echo "$companions" | while IFS='|' read -r comp_category comp_name; do
                 [[ -z "$comp_category" ]] && continue
@@ -516,11 +516,11 @@ EOF
                 case "$comp_category" in
                     "template_peppy")
                         comp_label="VU Meter"
-                        comp_install="Extract and copy the folder to \`/data/INTERNAL/glass/templates/\` on Glass, or to \`/data/INTERNAL/peppy_screensaver/templates/\` on PeppyMeter Screensaver (legacy)"
+                        comp_install="Extract and copy the folder to \`/data/INTERNAL/glass/templates/\`"
                         ;;
                     "templates_spectrum")
                         comp_label="Spectrum"
-                        comp_install="Extract and copy the folder to \`/data/INTERNAL/glass/templates_spectrum/\` on Glass, or to \`/data/INTERNAL/peppy_screensaver/templates_spectrum/\` on PeppyMeter Screensaver (legacy)"
+                        comp_install="Extract and copy the folder to \`/data/INTERNAL/glass/templates_spectrum/\`"
                         ;;
                 esac
                 local comp_path="${comp_category}/${res_path}/${comp_name}.zip"
@@ -537,12 +537,12 @@ EOF
 EOF
             if [[ -n "$glass_only" ]]; then
                 cat >> "$dir/README.md" << EOF
-**Requires Glass** (uses ${glass_only}; it does not run on PeppyMeter Screensaver).
+**Uses ${glass_only}.**
 
 EOF
             fi
             cat >> "$dir/README.md" << EOF
-**Install on Glass (both required):**
+**Install (both required):**
 1. Extract the zip file
 2. Copy \`templates/\` contents to \`/data/INTERNAL/glass/templates/\`
 3. Copy \`templates_spectrum/\` contents to \`/data/INTERNAL/glass/templates_spectrum/\`
@@ -550,20 +550,11 @@ EOF
 Or press Install on the Catalog tab of the Glass Manager.
 
 EOF
-            if [[ -z "$glass_only" ]]; then
-                cat >> "$dir/README.md" << EOF
-**Install on PeppyMeter Screensaver, legacy (both required):**
-1. Extract the zip file
-2. Copy \`templates/\` contents to \`/data/INTERNAL/peppy_screensaver/templates/\`
-3. Copy \`templates_spectrum/\` contents to \`/data/INTERNAL/peppy_screensaver/templates_spectrum/\`
-
-EOF
-            fi
         else
             # No companions - single download; Glass alone when the
             # template uses what only Glass draws.
             if [[ -n "$glass_only" ]]; then
-                this_install_info="Requires Glass (uses ${glass_only}). ${this_install_info%% on Glass, or to*} on Glass."
+                this_install_info="Uses ${glass_only}. ${this_install_info}"
             fi
             cat >> "$dir/README.md" << EOF
 **Download:** [${template_name}.zip](${template_name}.zip)
@@ -587,11 +578,11 @@ EOF
 
 1. Download the desired template zip(s)
 2. Extract each to the path shown next to its download link
-3. Select in plugin settings
+3. Choose it on the Themes tab of the Glass Manager
 
 ---
 
-*Part of [PeppyMeter Templates](${REPO_URL})*
+*Part of the [Glass theme collection](${REPO_URL})*
 EOF
 
     echo "Generated: $dir/README.md"
@@ -636,7 +627,7 @@ generate_catalog() {
     
     # Generate index README
     cat > catalog/README.md << 'EOF'
-# PeppyMeter Template Catalog
+# Glass Theme Catalog
 
 Browse templates by screen resolution.
 
@@ -660,7 +651,7 @@ EOF
 
 ## Installation Instructions
 
-On Glass, the Catalog tab of the Manager installs any template with one press. By hand, the paths are relative to `/data/INTERNAL/glass/` on Glass and to `/data/INTERNAL/peppy_screensaver/` on PeppyMeter Screensaver (legacy).
+The Catalog tab of the Glass Manager installs any theme with one press. By hand, the paths are under `/data/INTERNAL/glass/`.
 
 ### VU Meter Only (from template_peppy)
 
@@ -672,8 +663,7 @@ On Glass, the Catalog tab of the Manager installs any template with one press. B
 ```
 Download: 800x480_retro_wood.zip
 Extract:  800x480_retro_wood/
-Copy to:  /data/INTERNAL/glass/templates/800x480_retro_wood/            (Glass)
-          /data/INTERNAL/peppy_screensaver/templates/800x480_retro_wood/ (legacy)
+Copy to:  /data/INTERNAL/glass/templates/800x480_retro_wood/
 ```
 
 ### Spectrum Only (from templates_spectrum)
@@ -686,8 +676,7 @@ Copy to:  /data/INTERNAL/glass/templates/800x480_retro_wood/            (Glass)
 ```
 Download: 800x480_retro_wood.zip
 Extract:  800x480_retro_wood/
-Copy to:  /data/INTERNAL/glass/templates_spectrum/800x480_retro_wood/            (Glass)
-          /data/INTERNAL/peppy_screensaver/templates_spectrum/800x480_retro_wood/ (legacy)
+Copy to:  /data/INTERNAL/glass/templates_spectrum/800x480_retro_wood/
 ```
 
 ### Combined VU + Spectrum (from templates_peppy_spectrum)
@@ -705,15 +694,13 @@ Extract:  800x480_retro_wood/
 Inside:   800x480_retro_wood/templates/800x480_retro_wood/
           800x480_retro_wood/templates_spectrum/800x480_retro_wood/
 
-Copy to (Glass):  /data/INTERNAL/glass/templates/800x480_retro_wood/
-                  /data/INTERNAL/glass/templates_spectrum/800x480_retro_wood/
-Copy to (legacy): /data/INTERNAL/peppy_screensaver/templates/800x480_retro_wood/
-                  /data/INTERNAL/peppy_screensaver/templates_spectrum/800x480_retro_wood/
+Copy to:  /data/INTERNAL/glass/templates/800x480_retro_wood/
+          /data/INTERNAL/glass/templates_spectrum/800x480_retro_wood/
 ```
 
 ---
 
-*Auto-generated by [PeppyMeter Templates](https://github.com/foonerd/peppy_templates)*
+*Generated for the [Glass theme collection](https://github.com/foonerd/peppy_templates)*
 EOF
 
     echo "Generated: catalog/README.md"
@@ -756,11 +743,11 @@ EOF
         case "$category" in
             "template_peppy")
                 type_badge="VU Meter"
-                install_info="Extract and copy the folder to \`/data/INTERNAL/glass/templates/\` on Glass, or to \`/data/INTERNAL/peppy_screensaver/templates/\` on PeppyMeter Screensaver (legacy)"
+                install_info="Extract and copy the folder to \`/data/INTERNAL/glass/templates/\`"
                 ;;
             "templates_spectrum")
                 type_badge="Spectrum"
-                install_info="Extract and copy the folder to \`/data/INTERNAL/glass/templates_spectrum/\` on Glass, or to \`/data/INTERNAL/peppy_screensaver/templates_spectrum/\` on PeppyMeter Screensaver (legacy)"
+                install_info="Extract and copy the folder to \`/data/INTERNAL/glass/templates_spectrum/\`"
                 ;;
             "templates_peppy_spectrum")
                 type_badge="Combined"
@@ -820,13 +807,13 @@ EOF
         # template uses what only Glass draws.
         if [[ -n "$glass_only" ]]; then
             cat >> "catalog/${res}.md" << EOF
-**Requires Glass** (uses ${glass_only}; it does not run on PeppyMeter Screensaver).
+**Uses ${glass_only}.**
 
 EOF
         fi
         if [[ "$install_info" == "BOTH_PARTS" ]]; then
             cat >> "catalog/${res}.md" << EOF
-**Install on Glass (both required):**
+**Install (both required):**
 1. Extract the zip file
 2. Copy \`templates/${template_name}/\` to \`/data/INTERNAL/glass/templates/\`
 3. Copy \`templates_spectrum/${template_name}/\` to \`/data/INTERNAL/glass/templates_spectrum/\`
@@ -834,18 +821,9 @@ EOF
 Or press Install on the Catalog tab of the Glass Manager.
 
 EOF
-            if [[ -z "$glass_only" ]]; then
-                cat >> "catalog/${res}.md" << EOF
-**Install on PeppyMeter Screensaver, legacy (both required):**
-1. Extract the zip file
-2. Copy \`templates/${template_name}/\` to \`/data/INTERNAL/peppy_screensaver/templates/\`
-3. Copy \`templates_spectrum/${template_name}/\` to \`/data/INTERNAL/peppy_screensaver/templates_spectrum/\`
-
-EOF
-            fi
         else
             if [[ -n "$glass_only" ]]; then
-                install_info="${install_info%% on Glass, or to*} on Glass."
+                install_info="Uses ${glass_only}. ${install_info}"
             fi
             cat >> "catalog/${res}.md" << EOF
 **Install:** ${install_info}
@@ -867,7 +845,7 @@ EOF
 normalize_templates
 
 echo "========================================"
-echo "PeppyMeter Template README Generator"
+echo "Glass theme collection page generator"
 echo "========================================"
 echo ""
 

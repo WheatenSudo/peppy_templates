@@ -1,99 +1,57 @@
-# PeppyMeter Templates
+# Glass Themes
 
-Community collection of meter skins and spectrum visualizations for [Glass](https://github.com/foonerd/glass) and, before it, [PeppyMeter Screensaver](https://github.com/foonerd/peppy_screensaver). Glass installs any of them from the Catalog tab of its Manager; the paths below are for a copy by hand.
+The community collection of themes for [Glass](https://github.com/foonerd/glass), the display for Volumio players: meter skins, spectrum looks and bundles of both. Glass installs any of them from the Catalog tab of its Manager. The repository and its folders keep the names they had when the collection began with PeppyMeter, whose themes Glass reads unchanged.
 
-## Browse Templates
+## Browse
 
-**[View Template Catalog](catalog/README.md)** - Browse all templates organized by resolution.
+**[The catalog](catalog/README.md)** lists every theme by screen size, with a preview of each.
 
-## Repository Structure
+## How the repository is laid out
 
 ```
-template_peppy/           - VU meters only
-templates_peppy_spectrum/ - Combined VU meters + spectrum
-templates_spectrum/       - Spectrum analyzers only
-catalog/                  - Auto-generated browsing catalog
+template_peppy/           - meter themes
+templates_peppy_spectrum/ - meter themes with their spectrum theme
+templates_spectrum/       - spectrum themes
+catalog/                  - the generated pages, the index and the thumbnails
 
-Each category contains:
+Each category holds:
   [width]/
     [height]/
-      [template-name].zip
-      previews/
-      README.md (auto-generated)
+      [name].zip
+      previews/          (generated)
+      README.md          (generated)
 ```
 
-## Categories
+| Category | Holds | Installs into |
+|----------|-------|---------------|
+| `template_peppy` | a meter theme | `templates/` |
+| `templates_spectrum` | a spectrum theme | `templates_spectrum/` |
+| `templates_peppy_spectrum` | both, paired by name | both folders |
 
-| Category | Content | Install Location |
-|----------|---------|------------------|
-| `template_peppy` | VU meters only | `templates/` |
-| `templates_spectrum` | Spectrum only | `templates_spectrum/` |
-| `templates_peppy_spectrum` | Both combined | Both folders (see below) |
+The install folders are under `/data/INTERNAL/glass/` on the player.
 
-All paths relative to `/data/INTERNAL/glass/` on Glass, and to `/data/INTERNAL/peppy_screensaver/` on PeppyMeter Screensaver (legacy).
+## Installing a theme
 
-## Installation
+On the player, open the Glass Manager and its Catalog tab: every theme here is listed by size, with its preview, and installs with one press. A zip downloaded from here installs through the Themes tab's **Upload a theme zip** just the same.
 
-### VU Meter Only (from template_peppy)
+By hand, extract the zip and copy the theme folder to `/data/INTERNAL/glass/templates/`; a paired theme's zip holds `templates/` and `templates_spectrum/` folders, and each goes to its namesake under `/data/INTERNAL/glass/`.
 
-1. Download the zip file
-2. Extract the zip file
-3. Copy the extracted folder to `/data/INTERNAL/glass/templates/` (Glass) or `/data/INTERNAL/peppy_screensaver/templates/` (legacy)
-
-**Example:**
 ```
 Download: 800x480_retro_wood.zip
-Extract:  800x480_retro_wood/
-Copy to:  /data/INTERNAL/glass/templates/800x480_retro_wood/             (Glass)
-          /data/INTERNAL/peppy_screensaver/templates/800x480_retro_wood/  (legacy)
-```
-
-### Spectrum Only (from templates_spectrum)
-
-1. Download the zip file
-2. Extract the zip file
-3. Copy the extracted folder to `/data/INTERNAL/glass/templates_spectrum/` (Glass) or `/data/INTERNAL/peppy_screensaver/templates_spectrum/` (legacy)
-
-**Example:**
-```
-Download: 800x480_retro_wood.zip
-Extract:  800x480_retro_wood/
-Copy to:  /data/INTERNAL/glass/templates_spectrum/800x480_retro_wood/             (Glass)
-          /data/INTERNAL/peppy_screensaver/templates_spectrum/800x480_retro_wood/  (legacy)
-```
-
-### Combined VU + Spectrum (from templates_peppy_spectrum)
-
-1. Download the zip file
-2. Extract the zip file
-3. Open the extracted folder - you will see `templates/` and `templates_spectrum/` subfolders
-4. Copy the contents of `templates/` to `/data/INTERNAL/glass/templates/` (Glass) or `/data/INTERNAL/peppy_screensaver/templates/` (legacy)
-5. Copy the contents of `templates_spectrum/` to `/data/INTERNAL/glass/templates_spectrum/` (Glass) or `/data/INTERNAL/peppy_screensaver/templates_spectrum/` (legacy)
-
-**Example:**
-```
-Download: 800x480_retro_wood.zip
-Extract:  800x480_retro_wood/
 Inside:   800x480_retro_wood/templates/800x480_retro_wood/
           800x480_retro_wood/templates_spectrum/800x480_retro_wood/
-
-Copy:     templates/800x480_retro_wood/ 
-      to: /data/INTERNAL/glass/templates/800x480_retro_wood/             (Glass)
-          /data/INTERNAL/peppy_screensaver/templates/800x480_retro_wood/  (legacy)
-
-Copy:     templates_spectrum/800x480_retro_wood/
-      to: /data/INTERNAL/glass/templates_spectrum/800x480_retro_wood/             (Glass)
-          /data/INTERNAL/peppy_screensaver/templates_spectrum/800x480_retro_wood/  (legacy)
+Copy to:  /data/INTERNAL/glass/templates/800x480_retro_wood/
+          /data/INTERNAL/glass/templates_spectrum/800x480_retro_wood/
 ```
 
-## Machine-Readable Catalog
+## The machine-readable catalog
 
-`catalog/index.json` lists every template for installers such as the Glass Manager. It is regenerated by automation whenever a template changes.
+`catalog/index.json` lists every theme for installers such as the Glass Manager. It is regenerated by automation whenever a theme changes.
 
 ```
 {
   "version": 1,
-  "updated": "<when the template trees last changed>",
+  "updated": "<when the theme trees last changed>",
   "base": "https://raw.githubusercontent.com/foonerd/peppy_templates/main/",
   "templates": [
     {
@@ -119,46 +77,36 @@ Copy:     templates_spectrum/800x480_retro_wood/
 }
 ```
 
-`zip`, `preview` and `thumb` are paths under `base`. Each unit is one folder to install: take everything in the zip under `from` (an empty prefix means the zip root) and write it to `<install>/<folder>/`, keeping the paths relative to `from`. `names` are the meter or spectrum sections the folder defines. The units cover every layout used by the zips in this repository, so an installer never has to guess where a template's files are.
+`zip`, `preview` and `thumb` are paths under `base`. Each unit is one folder to install: take everything in the zip under `from` (an empty prefix means the zip root) and write it to `<install>/<folder>/`, keeping the paths relative to `from`. `names` are the meter or spectrum sections the folder defines. The units cover every layout used by the zips in this repository, so an installer never has to guess where a theme's files are.
 
-## Available Resolutions
+## Screen sizes
 
-| Width | Heights | Common Displays |
+| Width | Heights | Typical screens |
 |-------|---------|-----------------|
-| 0800 | 480, 600 | 7" RPi displays |
-| 1024 | 600, 768 | 10" tablets |
+| 0800 | 480, 600 | 7 inch Raspberry Pi displays |
+| 1024 | 600, 768 | 10 inch displays |
 | 1280 | 720, 800 | HD displays |
 | 1920 | 1080 | Full HD |
 | 3840 | 2160 | 4K displays |
 
-## Documentation
-
-- [Template Catalog](catalog/README.md) - Browse all templates
-- [VU Meter Configuration](docs/METERS.md)
-- [Spectrum Configuration](docs/SPECTRUM.md)
-- [Contributing Guide](CONTRIBUTING.md)
+A theme made for one size shows on another with Fit, and Tailor cuts a copy to any size; the [Tailor](https://github.com/foonerd/glass/wiki/Tailor) page of the Glass wiki has both.
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for submission guidelines.
+[CONTRIBUTING.md](CONTRIBUTING.md) has the layout a zip must have and how it gets here. The short way: press **Package** on the theme's card in the Glass Manager, and add the zip by pull request or post it on the Volumio forum.
 
-### Quick Start
+## Documentation
 
-1. Create your template as a zip file
-2. Upload to correct category/resolution folder
-3. Automation generates README and catalog entries
+- [The catalog](catalog/README.md)
+- [The Glass wiki](https://github.com/foonerd/glass/wiki): [Meters-Reference](https://github.com/foonerd/glass/wiki/Meters-Reference), [Spectrum](https://github.com/foonerd/glass/wiki/Spectrum), [Themes](https://github.com/foonerd/glass/wiki/Themes), [Catalog](https://github.com/foonerd/glass/wiki/Catalog)
+- The older key summaries kept here: [METERS.md](docs/METERS.md), [SPECTRUM.md](docs/SPECTRUM.md)
 
 ## Credits
 
-- Original PeppyMeter: [project-owner](https://github.com/project-owner)
-- Original PeppySpectrum: [project-owner](https://github.com/project-owner)
-- Volumio adaptation: [foonerd](https://github.com/foonerd)
+- The theme format and the first themes: PeppyMeter and PeppySpectrum by [project-owner](https://github.com/project-owner)
+- Glass, and the Volumio adaptation: [foonerd](https://github.com/foonerd)
+- Every theme: its author, named on its page
 
 ## License
 
-Individual templates may have their own licenses. See each template's README.
-
-## Related
-
-- [PeppyMeter Screensaver Plugin](https://github.com/foonerd/peppy_screensaver)
-- [PeppyMeter Build Tools](https://github.com/foonerd/peppy_builds)
+Individual themes may carry their own licences; see each theme's page.

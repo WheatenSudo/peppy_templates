@@ -1,7 +1,7 @@
 {
  "version": 1,
- "updated": "2026-09-23T17:16:57+02:00",
- "base": "https://raw.githubusercontent.com/foonerd/peppy_templates/main/",
+ "updated": "2026-09-30T03:05:30Z",
+ "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
    "name": "800x480_Linn_LP12",
@@ -846,8 +846,8 @@
    "width": 1024,
    "height": 600,
    "zip": "template_peppy/1024/600/1024x600_g5_712_Cassette.zip",
-   "bytes": 17174342,
-   "sha256": "b63c70a4fe921588a73cd620baf57c589586dd791fee0f8e8fb08efc8b792721",
+   "bytes": 17174643,
+   "sha256": "2191d7b788c7637cf5bd4ea456103732cb58976b4f96636eb422a4ab25ec8f38",
    "units": [
     {
      "kind": "meter",
@@ -1748,29 +1748,6 @@
    ],
    "preview": "template_peppy/1280/720/previews/1280x720_PMN_LedStrypes.png",
    "thumb": "catalog/thumbs/1280x720_PMN_LedStrypes.jpg"
-  },
-  {
-   "name": "1280x720_Pioneer_PLX-500",
-   "category": "template_peppy",
-   "kind": "meter",
-   "width": 1280,
-   "height": 720,
-   "zip": "template_peppy/1280/720/1280x720_Pioneer_PLX-500.zip",
-   "bytes": 2291638,
-   "sha256": "fcbf9a9676454192306c37a0fb4a512cd1d9f00661a18ab7c7a2be909107a937",
-   "units": [
-    {
-     "kind": "meter",
-     "install": "templates",
-     "from": "1280x720_Pioneer_PLX-500/",
-     "folder": "1280x720_Pioneer_PLX-500",
-     "names": [
-      "Pioneer PLX-500"
-     ]
-    }
-   ],
-   "preview": "template_peppy/1280/720/previews/1280x720_Pioneer_PLX-500.png",
-   "thumb": "catalog/thumbs/1280x720_Pioneer_PLX-500.jpg"
   },
   {
    "name": "1280x720_Pioneer_PLX-500L",
@@ -5165,6 +5142,55 @@
    "thumb": "catalog/thumbs/1280x400_g5_210_ms.jpg"
   },
   {
+   "name": "1280x720_Pioneer_PLX-500",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 720,
+   "zip": "templates_peppy_spectrum/1280/720/1280x720_Pioneer_PLX-500.zip",
+   "bytes": 4125695,
+   "sha256": "e0b6e7e49c613e54310be28d0d89774e844aaad5e912eeffbdbc1d3b17a6a720",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x720_Pioneer_PLX-500/templates/1280x720_Pioneer_PLX-500/",
+     "folder": "1280x720_Pioneer_PLX-500",
+     "names": [
+      "PLX-500 VU",
+      "PLX-500 Bars",
+      "PLX-500 Glow",
+      "PLX-500 Snow",
+      "PLX-500 Wave",
+      "PLX-500 Ink",
+      "PLX-500 Ink Wave"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x720_Pioneer_PLX-500/templates_spectrum/1280x720_Pioneer_PLX-500/",
+     "folder": "1280x720_Pioneer_PLX-500",
+     "names": [
+      "left-bars",
+      "right-bars",
+      "left-glow",
+      "right-glow",
+      "left-snow",
+      "right-snow",
+      "left-wave",
+      "right-wave",
+      "left-ink",
+      "right-ink",
+      "left-inkwave",
+      "right-inkwave"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/720/previews/1280x720_Pioneer_PLX-500.png",
+   "thumb": "catalog/thumbs/1280x720_Pioneer_PLX-500.jpg"
+  },
+  {
    "name": "1280x720_g5_450_sm",
    "category": "templates_peppy_spectrum",
    "kind": "meter+spectrum",
@@ -5244,6 +5270,144 @@
    ],
    "preview": "templates_peppy_spectrum/1280/720/previews/1280x720_g5_451_ms.png",
    "thumb": "catalog/thumbs/1280x720_g5_451_ms.jpg"
+  },
+  {
+   "name": "1280x720_glass_analyser",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 720,
+   "zip": "templates_peppy_spectrum/1280/720/1280x720_glass_analyser.zip",
+   "bytes": 140520,
+   "sha256": "2bb835af807e85486d0289b4a3322aac7a32c63c971f37b9300bc40fbfa1bffe",
+   "units": [
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x720_glass_analyser/templates_spectrum/1280x720_glass_analyser/",
+     "folder": "1280x720_glass_analyser",
+     "names": [
+      "studio",
+      "lamps",
+      "glow",
+      "wire",
+      "orbit",
+      "trace",
+      "pair-left",
+      "pair-right"
+     ]
+    },
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x720_glass_analyser/templates/1280x720_glass_analyser/",
+     "folder": "1280x720_glass_analyser",
+     "names": [
+      "studio",
+      "lamps",
+      "glow",
+      "wire",
+      "orbit",
+      "trace",
+      "pair"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/720/previews/1280x720_glass_analyser.png",
+   "thumb": "catalog/thumbs/1280x720_glass_analyser.jpg"
+  },
+  {
+   "name": "1280x720_glass_looks",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 720,
+   "zip": "templates_peppy_spectrum/1280/720/1280x720_glass_looks.zip",
+   "bytes": 235845,
+   "sha256": "db124a36001b368d6b454a23a1dbafa07a46d26ed26d81a8ea1a8cc3ab614c24",
+   "units": [
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x720_glass_looks/templates_spectrum/1280x720_glass_looks/",
+     "folder": "1280x720_glass_looks",
+     "names": [
+      "bars-plain",
+      "bars-rounded",
+      "bars-led",
+      "bars-lumi",
+      "bars-outline",
+      "bars-mirror-reflex",
+      "bars-stereo-split",
+      "bars-sides",
+      "graph-fill",
+      "graph-line-peaks",
+      "radial-out",
+      "radial-invert-spin",
+      "radial-halves",
+      "scales-hertz",
+      "scales-notes",
+      "palette-own-stops",
+      "color-by-level",
+      "level-linear",
+      "onset-flash",
+      "onset-ring",
+      "dots",
+      "waterfall",
+      "waterfall-sides",
+      "trail",
+      "glow",
+      "fluid",
+      "ribbon",
+      "echo",
+      "pair-left",
+      "pair-right",
+      "prism",
+      "dots-held"
+     ]
+    },
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x720_glass_looks/templates/1280x720_glass_looks/",
+     "folder": "1280x720_glass_looks",
+     "names": [
+      "bars-plain",
+      "bars-rounded",
+      "bars-led",
+      "bars-lumi",
+      "bars-outline",
+      "bars-mirror-reflex",
+      "bars-stereo-split",
+      "bars-sides",
+      "graph-fill",
+      "graph-line-peaks",
+      "radial-out",
+      "radial-invert-spin",
+      "radial-halves",
+      "scales-hertz",
+      "scales-notes",
+      "palette-own-stops",
+      "color-by-level",
+      "level-linear",
+      "onset-flash",
+      "onset-ring",
+      "dots",
+      "waterfall",
+      "waterfall-sides",
+      "trail",
+      "glow",
+      "fluid",
+      "ribbon",
+      "echo",
+      "pair",
+      "prism",
+      "dots-held"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/720/previews/1280x720_glass_looks.png",
+   "thumb": "catalog/thumbs/1280x720_glass_looks.jpg"
   },
   {
    "name": "1280x800_g5_410_ms",

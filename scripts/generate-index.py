@@ -25,7 +25,7 @@ import sys
 import zipfile
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-RAW = 'https://raw.githubusercontent.com/foonerd/peppy_templates/main/'
+RAW = 'https://raw.githubusercontent.com/foonerd/glass_templates/main/'
 CATEGORIES = ['template_peppy', 'templates_peppy_spectrum', 'templates_spectrum']
 UNIT_FILES = {'meters.txt': ('meter', 'templates'), 'spectrum.txt': ('spectrum', 'templates_spectrum')}
 CONTAINERS = {'', 'templates', 'templates_spectrum'}

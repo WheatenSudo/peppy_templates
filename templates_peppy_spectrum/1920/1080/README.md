@@ -73,6 +73,38 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 ---
 
+## 1920x1080_g5_TurnTouch
+
+![1920x1080_g5_TurnTouch](previews/1920x1080_g5_TurnTouch.png)
+
+| Property | Value |
+|----------|-------|
+| Template Pack | Yes (4 templates) |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Included Meters:**
+
+- 600G5_Grandioso Touch
+- 601G5_Denon DP400 Touch
+- 602G5_Pioneer Gold Touch
+- 602G5_Vertere Touch
+
+**Download:** [1920x1080_g5_TurnTouch.zip](1920x1080_g5_TurnTouch.zip)
+
+**Uses the spectrum analyser, interactive buttons, Glass-only meter keys.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
 
 ## Installation
 

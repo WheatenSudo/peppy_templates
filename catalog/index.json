@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-09-30T03:05:30Z",
+ "updated": "2026-10-01T13:16:18+02:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -5698,6 +5698,44 @@
    ],
    "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_g5_721_ms.png",
    "thumb": "catalog/thumbs/1920x1080_g5_721_ms.jpg"
+  },
+  {
+   "name": "1920x1080_g5_TurnTouch",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 1080,
+   "zip": "templates_peppy_spectrum/1920/1080/1920x1080_g5_TurnTouch.zip",
+   "bytes": 12118126,
+   "sha256": "3907a2ffe6f461b3b8eae25941e4633c2e712294b5e214e4a3b72bbbd74a7bea",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x1080_g5_TurnTouch/templates/1920x1080_g5_TurnTouch/",
+     "folder": "1920x1080_g5_TurnTouch",
+     "names": [
+      "600G5_Grandioso Touch",
+      "601G5_Denon DP400 Touch",
+      "602G5_Pioneer Gold Touch",
+      "602G5_Vertere Touch"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x1080_g5_TurnTouch/templates_spectrum/1920x1080_g5_TurnTouch/",
+     "folder": "1920x1080_g5_TurnTouch",
+     "names": [
+      "Gran",
+      "Denon",
+      "Pion",
+      "Vert"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_g5_TurnTouch.png",
+   "thumb": "catalog/thumbs/1920x1080_g5_TurnTouch.jpg"
   },
   {
    "name": "1920x440_Aluminium_spectrum",

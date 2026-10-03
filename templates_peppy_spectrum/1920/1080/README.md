@@ -79,7 +79,7 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 | Property | Value |
 |----------|-------|
-| Template Pack | Yes (4 templates) |
+| Template Pack | Yes (6 templates) |
 | Meter Type | linear |
 | Extended Config | Yes |
 | Spectrum | Yes |
@@ -90,7 +90,9 @@ Or press Install on the Catalog tab of the Glass Manager.
 - 600G5_Grandioso Touch
 - 601G5_Denon DP400 Touch
 - 602G5_Pioneer Gold Touch
-- 602G5_Vertere Touch
+- 603G5_Vertere Touch
+- 604G5_McIntosh MTI100 Touch
+- 605G5_Technics Silver Touch
 
 **Download:** [1920x1080_g5_TurnTouch.zip](1920x1080_g5_TurnTouch.zip)
 

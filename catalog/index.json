@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-01T14:36:54+02:00",
+ "updated": "2026-10-03T10:59:16+02:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -5706,8 +5706,8 @@
    "width": 1920,
    "height": 1080,
    "zip": "templates_peppy_spectrum/1920/1080/1920x1080_g5_TurnTouch.zip",
-   "bytes": 12128839,
-   "sha256": "58f5cea06ad8a98e060f87dbe0944f174271225357ee541f727689a66ecd7e8b",
+   "bytes": 19317361,
+   "sha256": "9c2967e0785d357bbec79ad66ab62bfee2041f796aa431c99ccb058c03e4f066",
    "units": [
     {
      "kind": "meter",
@@ -5718,7 +5718,9 @@
       "600G5_Grandioso Touch",
       "601G5_Denon DP400 Touch",
       "602G5_Pioneer Gold Touch",
-      "602G5_Vertere Touch"
+      "603G5_Vertere Touch",
+      "604G5_McIntosh MTI100 Touch",
+      "605G5_Technics Silver Touch"
      ]
     },
     {
@@ -5730,7 +5732,9 @@
       "Gran",
       "Denon",
       "Pion",
-      "Vert"
+      "Vert",
+      "MCIN",
+      "TECH"
      ]
     }
    ],

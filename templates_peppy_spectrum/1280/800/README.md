@@ -4,6 +4,106 @@ Combined VU Meter + Spectrum templates (self-contained with both parts).
 
 ---
 
+## 1280x800_Aluminium_spectrum
+
+![1280x800_Aluminium_spectrum](previews/1280x800_Aluminium_spectrum.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | Aluminium_spectrum |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1280x800_Aluminium_spectrum.zip](1280x800_Aluminium_spectrum.zip)
+
+**Uses the spectrum analyser.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
+## 1280x800_Audio-Technica-LP120XSV
+
+![1280x800_Audio-Technica-LP120XSV](previews/1280x800_Audio-Technica-LP120XSV.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | LP120XSV |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1280x800_Audio-Technica-LP120XSV.zip](1280x800_Audio-Technica-LP120XSV.zip)
+
+**Uses the spectrum analyser, interactive buttons.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
+## 1280x800_Aureon
+
+![1280x800_Aureon](previews/1280x800_Aureon.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | Aureon-Bar |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1280x800_Aureon.zip](1280x800_Aureon.zip)
+
+**Uses the spectrum analyser, interactive buttons.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
+## 1280x800_Titanium
+
+![1280x800_Titanium](previews/1280x800_Titanium.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | Titanium |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1280x800_Titanium.zip](1280x800_Titanium.zip)
+
+**Uses the spectrum analyser, interactive buttons.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
 ## 1280x800_g5_410_ms
 
 ![1280x800_g5_410_ms](previews/1280x800_g5_410_ms.png)
@@ -33,6 +133,31 @@ Combined VU Meter + Spectrum templates (self-contained with both parts).
 - 113G5_Old Spectrum S+M
 
 **Download:** [1280x800_g5_410_ms.zip](1280x800_g5_410_ms.zip)
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
+## 1280x800_standard
+
+![1280x800_standard](previews/1280x800_standard.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | Standard |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1280x800_standard.zip](1280x800_standard.zip)
+
+**Uses the spectrum analyser, interactive buttons.**
 
 **Install (both required):**
 1. Extract the zip file

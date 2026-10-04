@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-03T16:32:35+02:00",
+ "updated": "2026-10-04T13:24:35+02:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -5416,8 +5416,8 @@
    "width": 1280,
    "height": 800,
    "zip": "templates_peppy_spectrum/1280/800/1280x800_Aluminium_spectrum.zip",
-   "bytes": 3948084,
-   "sha256": "764c2b7e400aba6fea088136c11987d8bf6310056ff2653e548e4f467a517add",
+   "bytes": 4033069,
+   "sha256": "de79aa0645098308436f62ad74ad4f31692973b3e3f9b9315225424aea2270d1",
    "units": [
     {
      "kind": "meter",

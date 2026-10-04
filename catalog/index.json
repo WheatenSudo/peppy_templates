@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-03T10:59:16+02:00",
+ "updated": "2026-10-04T13:24:35+02:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -5410,6 +5410,134 @@
    "thumb": "catalog/thumbs/1280x720_glass_looks.jpg"
   },
   {
+   "name": "1280x800_Aluminium_spectrum",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 800,
+   "zip": "templates_peppy_spectrum/1280/800/1280x800_Aluminium_spectrum.zip",
+   "bytes": 4033069,
+   "sha256": "de79aa0645098308436f62ad74ad4f31692973b3e3f9b9315225424aea2270d1",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x800_Aluminium_spectrum/templates/1280x800_Aluminium_spectrum/",
+     "folder": "1280x800_Aluminium_spectrum",
+     "names": [
+      "Aluminium_spectrum"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x800_Aluminium_spectrum/templates_spectrum/1280x800_Aluminium_spectrum/",
+     "folder": "1280x800_Aluminium_spectrum",
+     "names": [
+      "Aluminium_spectrum"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_Aluminium_spectrum.png",
+   "thumb": "catalog/thumbs/1280x800_Aluminium_spectrum.jpg"
+  },
+  {
+   "name": "1280x800_Audio-Technica-LP120XSV",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 800,
+   "zip": "templates_peppy_spectrum/1280/800/1280x800_Audio-Technica-LP120XSV.zip",
+   "bytes": 5319812,
+   "sha256": "d98d5e91e8c5fa60c24edb6af57c2bba7d81d01efff4fb224ba0e89f27946106",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x800_Audio-Technica-LP120XSV/templates/1280x800_Audio-Technica-LP120XSV/",
+     "folder": "1280x800_Audio-Technica-LP120XSV",
+     "names": [
+      "LP120XSV"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x800_Audio-Technica-LP120XSV/templates_spectrum/1280x800_Audio-Technica-LP120XSV/",
+     "folder": "1280x800_Audio-Technica-LP120XSV",
+     "names": [
+      "LP120XSV"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_Audio-Technica-LP120XSV.png",
+   "thumb": "catalog/thumbs/1280x800_Audio-Technica-LP120XSV.jpg"
+  },
+  {
+   "name": "1280x800_Aureon",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 800,
+   "zip": "templates_peppy_spectrum/1280/800/1280x800_Aureon.zip",
+   "bytes": 6619213,
+   "sha256": "8a194560d26a8267d50d9f9390a530ec4cefddf76acb3f87ef432c80f0462841",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x800_Aureon/templates/1280x800_Aureon/",
+     "folder": "1280x800_Aureon",
+     "names": [
+      "Aureon-Bar"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x800_Aureon/templates_spectrum/1280x800_Aureon/",
+     "folder": "1280x800_Aureon",
+     "names": [
+      "aureon"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_Aureon.png",
+   "thumb": "catalog/thumbs/1280x800_Aureon.jpg"
+  },
+  {
+   "name": "1280x800_Titanium",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 800,
+   "zip": "templates_peppy_spectrum/1280/800/1280x800_Titanium.zip",
+   "bytes": 8743597,
+   "sha256": "495632b39ad4aa5d3b100877cbffc81885e5e5d28cd07374c61fa9a5d92879a0",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x800_Titanium/templates/1280x800_Titanium/",
+     "folder": "1280x800_Titanium",
+     "names": [
+      "Titanium"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x800_Titanium/templates_spectrum/1280x800_Titanium/",
+     "folder": "1280x800_Titanium",
+     "names": [
+      "titanium"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_Titanium.png",
+   "thumb": "catalog/thumbs/1280x800_Titanium.jpg"
+  },
+  {
    "name": "1280x800_g5_410_ms",
    "category": "templates_peppy_spectrum",
    "kind": "meter+spectrum",
@@ -5464,6 +5592,38 @@
    ],
    "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_g5_410_ms.png",
    "thumb": "catalog/thumbs/1280x800_g5_410_ms.jpg"
+  },
+  {
+   "name": "1280x800_standard",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 800,
+   "zip": "templates_peppy_spectrum/1280/800/1280x800_standard.zip",
+   "bytes": 3637329,
+   "sha256": "a63625a9a0a32471c422bb77fa37e66bac4ab495115bb3be519e085a7a5c5860",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x800_standard/templates/1280x800_standard/",
+     "folder": "1280x800_standard",
+     "names": [
+      "Standard"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x800_standard/templates_spectrum/1280x800_standard/",
+     "folder": "1280x800_standard",
+     "names": [
+      "standard"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_standard.png",
+   "thumb": "catalog/thumbs/1280x800_standard.jpg"
   },
   {
    "name": "1480x320_g5_520_ms",

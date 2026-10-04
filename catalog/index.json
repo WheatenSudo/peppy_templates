@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-04T13:24:35+02:00",
+ "updated": "2026-10-04T17:06:48+02:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -5866,8 +5866,8 @@
    "width": 1920,
    "height": 1080,
    "zip": "templates_peppy_spectrum/1920/1080/1920x1080_g5_TurnTouch.zip",
-   "bytes": 19317361,
-   "sha256": "9c2967e0785d357bbec79ad66ab62bfee2041f796aa431c99ccb058c03e4f066",
+   "bytes": 29022867,
+   "sha256": "8bbd3a5dd5ac9f0f8cd1dea4d2e67a30e6d6b9d479ac0b162eb8002874ebd0d7",
    "units": [
     {
      "kind": "meter",
@@ -5880,7 +5880,10 @@
       "602G5_Pioneer Gold Touch",
       "603G5_Vertere Touch",
       "604G5_McIntosh MTI100 Touch",
-      "605G5_Technics Silver Touch"
+      "605G5_Technics Silver Touch",
+      "606G5_Naim Turn Touch",
+      "607G5_Thorens Touch",
+      "608G5_DenonDP62 Touch"
      ]
     },
     {
@@ -5894,7 +5897,10 @@
       "Pion",
       "Vert",
       "MCIN",
-      "TECH"
+      "TECH",
+      "Naim",
+      "Thor",
+      "DP62"
      ]
     }
    ],

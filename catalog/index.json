@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-05T16:47:01+02:00",
+ "updated": "2026-10-05T16:12:53+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -5538,12 +5538,12 @@
    "thumb": "catalog/thumbs/1280x800_Aureon.jpg"
   },
   {
-   "name": "1280x800_Naim_NAC 332",
+   "name": "1280x800_Naim_NAC_332",
    "category": "templates_peppy_spectrum",
    "kind": "meter+spectrum",
    "width": 1280,
    "height": 800,
-   "zip": "templates_peppy_spectrum/1280/800/1280x800_Naim_NAC 332.zip",
+   "zip": "templates_peppy_spectrum/1280/800/1280x800_Naim_NAC_332.zip",
    "bytes": 1529852,
    "sha256": "2d103a54ea7bc156f354b5f824ed830e0b7ee0b0ccdb4c51e4e5244d2357c977",
    "units": [

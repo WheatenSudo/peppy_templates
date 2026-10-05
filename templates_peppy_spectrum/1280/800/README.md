@@ -104,6 +104,31 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 ---
 
+## 1280x800_Naim_NAC_332
+
+![1280x800_Naim_NAC_332](previews/1280x800_Naim_NAC_332.svg)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | Naim_NAC 332 |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1280x800_Naim_NAC_332.zip](1280x800_Naim_NAC_332.zip)
+
+**Uses the spectrum analyser, interactive buttons, Glass-only meter keys.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
 ## 1280x800_Titanium
 
 ![1280x800_Titanium](previews/1280x800_Titanium.png)

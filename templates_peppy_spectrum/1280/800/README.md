@@ -106,7 +106,7 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 ## 1280x800_Naim_NAC_332
 
-![1280x800_Naim_NAC_332](previews/1280x800_Naim_NAC_332.svg)
+![1280x800_Naim_NAC_332](previews/1280x800_Naim_NAC_332.png)
 
 | Property | Value |
 |----------|-------|

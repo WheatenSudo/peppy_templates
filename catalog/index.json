@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-05T16:16:18+01:00",
+ "updated": "2026-10-05T17:23:08+02:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -5545,13 +5545,13 @@
    "height": 800,
    "zip": "templates_peppy_spectrum/1280/800/1280x800_Naim_NAC_332.zip",
    "bytes": 1529852,
-   "sha256": "2d103a54ea7bc156f354b5f824ed830e0b7ee0b0ccdb4c51e4e5244d2357c977",
+   "sha256": "afd4c239b483c45bc8e95fdd743dd19f9d161e674f15d579fe60138bd85caa3d",
    "units": [
     {
      "kind": "meter",
      "install": "templates",
-     "from": "1280x800_Naim_NAC 332/templates/1280x800_Naim_NAC 332/",
-     "folder": "1280x800_Naim_NAC 332",
+     "from": "1280x800_Naim_NAC_332/templates/1280x800_Naim_NAC_332/",
+     "folder": "1280x800_Naim_NAC_332",
      "names": [
       "Naim_NAC 332"
      ]
@@ -5559,8 +5559,8 @@
     {
      "kind": "spectrum",
      "install": "templates_spectrum",
-     "from": "1280x800_Naim_NAC 332/templates_spectrum/1280x800_Naim_NAC 332/",
-     "folder": "1280x800_Naim_NAC 332",
+     "from": "1280x800_Naim_NAC_332/templates_spectrum/1280x800_Naim_NAC_332/",
+     "folder": "1280x800_Naim_NAC_332",
      "names": [
       "Naim_NAC 332",
       "Naim_NAC 332_2",
@@ -5568,8 +5568,8 @@
      ]
     }
    ],
-   "preview": null,
-   "thumb": null
+   "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_Naim_NAC_332.png",
+   "thumb": "catalog/thumbs/1280x800_Naim_NAC_332.jpg"
   },
   {
    "name": "1280x800_Titanium",

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-04T17:06:48+02:00",
+ "updated": "2026-10-05T16:39:09+02:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -5408,6 +5408,38 @@
    ],
    "preview": "templates_peppy_spectrum/1280/720/previews/1280x720_glass_looks.png",
    "thumb": "catalog/thumbs/1280x720_glass_looks.jpg"
+  },
+  {
+   "name": "1280x800_Alu_Glass",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 800,
+   "zip": "templates_peppy_spectrum/1280/800/1280x800_Alu_Glass.zip",
+   "bytes": 3662092,
+   "sha256": "03bd1ecd1279c66bd08a7469fb214867d428b679d34c6ca124085cd3b0d99442",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x800_Alu_Glass/templates/1280x800_Alu_Glass/",
+     "folder": "1280x800_Alu_Glass",
+     "names": [
+      "Alu_Glass"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x800_Alu_Glass/templates_spectrum/1280x800_Alu_Glass/",
+     "folder": "1280x800_Alu_Glass",
+     "names": [
+      "Alu-Glass"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_Alu_Glass.png",
+   "thumb": "catalog/thumbs/1280x800_Alu_Glass.jpg"
   },
   {
    "name": "1280x800_Aluminium_spectrum",

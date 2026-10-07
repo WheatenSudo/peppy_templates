@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-05T17:23:08+02:00",
+ "updated": "2026-10-07T17:20:13+02:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -5658,6 +5658,38 @@
    ],
    "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_g5_410_ms.png",
    "thumb": "catalog/thumbs/1280x800_g5_410_ms.jpg"
+  },
+  {
+   "name": "1280x800_south_park_room",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 800,
+   "zip": "templates_peppy_spectrum/1280/800/1280x800_south_park_room.zip",
+   "bytes": 2149362,
+   "sha256": "c98ad0f76120507864d95f21f9ed9503d0a4004a35160ec7d6e5b082d23165c2",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x800_south_park_room/templates/1280x800_south_park_room/",
+     "folder": "1280x800_south_park_room",
+     "names": [
+      "south_park_room"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x800_south_park_room/templates_spectrum/1280x800_south_park_room/",
+     "folder": "1280x800_south_park_room",
+     "names": [
+      "south_park_room"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_south_park_room.png",
+   "thumb": "catalog/thumbs/1280x800_south_park_room.jpg"
   },
   {
    "name": "1280x800_standard",

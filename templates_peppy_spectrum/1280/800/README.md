@@ -193,6 +193,31 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 ---
 
+## 1280x800_south_park_room
+
+![1280x800_south_park_room](previews/1280x800_south_park_room.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | south_park_room |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1280x800_south_park_room.zip](1280x800_south_park_room.zip)
+
+**Uses the spectrum analyser, interactive buttons, Glass-only meter keys.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
 ## 1280x800_standard
 
 ![1280x800_standard](previews/1280x800_standard.png)

@@ -4,6 +4,31 @@ Combined VU Meter + Spectrum templates (self-contained with both parts).
 
 ---
 
+## 1280x800_Alu_Glass
+
+![1280x800_Alu_Glass](previews/1280x800_Alu_Glass.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | Alu_Glass |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1280x800_Alu_Glass.zip](1280x800_Alu_Glass.zip)
+
+**Uses the spectrum analyser, interactive buttons, Glass-only meter keys.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
 ## 1280x800_Aluminium_spectrum
 
 ![1280x800_Aluminium_spectrum](previews/1280x800_Aluminium_spectrum.png)
@@ -79,6 +104,31 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 ---
 
+## 1280x800_Naim_NAC_332
+
+![1280x800_Naim_NAC_332](previews/1280x800_Naim_NAC_332.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | Naim_NAC 332 |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1280x800_Naim_NAC_332.zip](1280x800_Naim_NAC_332.zip)
+
+**Uses the spectrum analyser, interactive buttons, Glass-only meter keys.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
 ## 1280x800_Titanium
 
 ![1280x800_Titanium](previews/1280x800_Titanium.png)
@@ -133,6 +183,31 @@ Or press Install on the Catalog tab of the Glass Manager.
 - 113G5_Old Spectrum S+M
 
 **Download:** [1280x800_g5_410_ms.zip](1280x800_g5_410_ms.zip)
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
+## 1280x800_south_park_room
+
+![1280x800_south_park_room](previews/1280x800_south_park_room.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | south_park_room |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1280x800_south_park_room.zip](1280x800_south_park_room.zip)
+
+**Uses the spectrum analyser, interactive buttons, Glass-only meter keys.**
 
 **Install (both required):**
 1. Extract the zip file

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-04T13:24:35+02:00",
+ "updated": "2026-10-07T17:20:13+02:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -5410,6 +5410,38 @@
    "thumb": "catalog/thumbs/1280x720_glass_looks.jpg"
   },
   {
+   "name": "1280x800_Alu_Glass",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 800,
+   "zip": "templates_peppy_spectrum/1280/800/1280x800_Alu_Glass.zip",
+   "bytes": 3662092,
+   "sha256": "03bd1ecd1279c66bd08a7469fb214867d428b679d34c6ca124085cd3b0d99442",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x800_Alu_Glass/templates/1280x800_Alu_Glass/",
+     "folder": "1280x800_Alu_Glass",
+     "names": [
+      "Alu_Glass"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x800_Alu_Glass/templates_spectrum/1280x800_Alu_Glass/",
+     "folder": "1280x800_Alu_Glass",
+     "names": [
+      "Alu-Glass"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_Alu_Glass.png",
+   "thumb": "catalog/thumbs/1280x800_Alu_Glass.jpg"
+  },
+  {
    "name": "1280x800_Aluminium_spectrum",
    "category": "templates_peppy_spectrum",
    "kind": "meter+spectrum",
@@ -5506,6 +5538,40 @@
    "thumb": "catalog/thumbs/1280x800_Aureon.jpg"
   },
   {
+   "name": "1280x800_Naim_NAC_332",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 800,
+   "zip": "templates_peppy_spectrum/1280/800/1280x800_Naim_NAC_332.zip",
+   "bytes": 1529852,
+   "sha256": "afd4c239b483c45bc8e95fdd743dd19f9d161e674f15d579fe60138bd85caa3d",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x800_Naim_NAC_332/templates/1280x800_Naim_NAC_332/",
+     "folder": "1280x800_Naim_NAC_332",
+     "names": [
+      "Naim_NAC 332"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x800_Naim_NAC_332/templates_spectrum/1280x800_Naim_NAC_332/",
+     "folder": "1280x800_Naim_NAC_332",
+     "names": [
+      "Naim_NAC 332",
+      "Naim_NAC 332_2",
+      "Naim_NAC 332_3"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_Naim_NAC_332.png",
+   "thumb": "catalog/thumbs/1280x800_Naim_NAC_332.jpg"
+  },
+  {
    "name": "1280x800_Titanium",
    "category": "templates_peppy_spectrum",
    "kind": "meter+spectrum",
@@ -5592,6 +5658,38 @@
    ],
    "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_g5_410_ms.png",
    "thumb": "catalog/thumbs/1280x800_g5_410_ms.jpg"
+  },
+  {
+   "name": "1280x800_south_park_room",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 800,
+   "zip": "templates_peppy_spectrum/1280/800/1280x800_south_park_room.zip",
+   "bytes": 2149362,
+   "sha256": "c98ad0f76120507864d95f21f9ed9503d0a4004a35160ec7d6e5b082d23165c2",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x800_south_park_room/templates/1280x800_south_park_room/",
+     "folder": "1280x800_south_park_room",
+     "names": [
+      "south_park_room"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x800_south_park_room/templates_spectrum/1280x800_south_park_room/",
+     "folder": "1280x800_south_park_room",
+     "names": [
+      "south_park_room"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_south_park_room.png",
+   "thumb": "catalog/thumbs/1280x800_south_park_room.jpg"
   },
   {
    "name": "1280x800_standard",
@@ -5866,8 +5964,8 @@
    "width": 1920,
    "height": 1080,
    "zip": "templates_peppy_spectrum/1920/1080/1920x1080_g5_TurnTouch.zip",
-   "bytes": 19317361,
-   "sha256": "9c2967e0785d357bbec79ad66ab62bfee2041f796aa431c99ccb058c03e4f066",
+   "bytes": 29022867,
+   "sha256": "8bbd3a5dd5ac9f0f8cd1dea4d2e67a30e6d6b9d479ac0b162eb8002874ebd0d7",
    "units": [
     {
      "kind": "meter",
@@ -5880,7 +5978,10 @@
       "602G5_Pioneer Gold Touch",
       "603G5_Vertere Touch",
       "604G5_McIntosh MTI100 Touch",
-      "605G5_Technics Silver Touch"
+      "605G5_Technics Silver Touch",
+      "606G5_Naim Turn Touch",
+      "607G5_Thorens Touch",
+      "608G5_DenonDP62 Touch"
      ]
     },
     {
@@ -5894,7 +5995,10 @@
       "Pion",
       "Vert",
       "MCIN",
-      "TECH"
+      "TECH",
+      "Naim",
+      "Thor",
+      "DP62"
      ]
     }
    ],

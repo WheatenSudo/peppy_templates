@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-08T21:15:40+02:00",
+ "updated": "2026-10-11T15:53:41+02:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -6004,6 +6004,55 @@
    ],
    "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_g5_CdTouch.png",
    "thumb": "catalog/thumbs/1920x1080_g5_CdTouch.jpg"
+  },
+  {
+   "name": "1920x1080_g5_TapeTouch",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 1080,
+   "zip": "templates_peppy_spectrum/1920/1080/1920x1080_g5_TapeTouch.zip",
+   "bytes": 50886049,
+   "sha256": "cb6900a54978cdeb9bb56db241faf52cbd14464673f227b9c359759476088d7f",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x1080_g5_TapeTouch/templates/1920x1080_g5_TapeTouch/",
+     "folder": "1920x1080_g5_TapeTouch",
+     "names": [
+      "700G5_Akai77black Touch",
+      "701G5_Akai77_silver To",
+      "702G5_Antelope Touch",
+      "703G5_Otari Touchl",
+      "704G5_PioneerRT707_Touch",
+      "705G5_Tascam Touch",
+      "706G5_RevoxB77 Touch",
+      "707G5_SonyTC730 Touch",
+      "708G5_MION24 Touch"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x1080_g5_TapeTouch/templates_spectrum/1920x1080_g5_TapeTouch/",
+     "folder": "1920x1080_g5_TapeTouch",
+     "names": [
+      "ANTE",
+      "AKA1",
+      "AKA2",
+      "OTA",
+      "PION",
+      "KONC",
+      "TAS",
+      "REV",
+      "SON",
+      "OMN"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_g5_TapeTouch.png",
+   "thumb": "catalog/thumbs/1920x1080_g5_TapeTouch.jpg"
   },
   {
    "name": "1920x1080_g5_TurnTouch",

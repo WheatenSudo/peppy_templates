@@ -110,6 +110,43 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 ---
 
+## 1920x1080_g5_TapeTouch
+
+![1920x1080_g5_TapeTouch](previews/1920x1080_g5_TapeTouch.png)
+
+| Property | Value |
+|----------|-------|
+| Template Pack | Yes (9 templates) |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Included Meters:**
+
+- 700G5_Akai77black Touch
+- 701G5_Akai77_silver To
+- 702G5_Antelope Touch
+- 703G5_Otari Touchl
+- 704G5_PioneerRT707_Touch
+- 705G5_Tascam Touch
+- 706G5_RevoxB77 Touch
+- 707G5_SonyTC730 Touch
+- 708G5_MION24 Touch
+
+**Download:** [1920x1080_g5_TapeTouch.zip](1920x1080_g5_TapeTouch.zip)
+
+**Uses the spectrum analyser, interactive buttons, Glass-only meter keys.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
 ## 1920x1080_g5_TurnTouch
 
 ![1920x1080_g5_TurnTouch](previews/1920x1080_g5_TurnTouch.png)

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-11T17:48:56+02:00",
+ "updated": "2026-10-11T17:55:08+02:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -3598,8 +3598,8 @@
    "width": 1920,
    "height": 1080,
    "zip": "template_peppy/1920/1080/1920x1080_g5_712_Cassette.zip",
-   "bytes": 36036655,
-   "sha256": "f7cef13270e40e417167054ea7fd5d8ef4f3552a89ae5f97c8850d7c004cbb21",
+   "bytes": 36104206,
+   "sha256": "43acfe27a91a85c7ad90353609f1d11c7d85aa8a3919e1303b08f7fbcd3d72d3",
    "units": [
     {
      "kind": "meter",

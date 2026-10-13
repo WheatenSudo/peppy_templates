@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-13T16:39:20+01:00",
+ "updated": "2026-10-13T17:14:15+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -1795,6 +1795,39 @@
    ],
    "preview": "template_peppy/1280/720/previews/1280x720_Pioneer_PLX-500L.png",
    "thumb": "catalog/thumbs/1280x720_Pioneer_PLX-500L.jpg"
+  },
+  {
+   "name": "1280x720_cd_changer",
+   "category": "template_peppy",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 720,
+   "zip": "template_peppy/1280/720/1280x720_cd_changer.zip",
+   "bytes": 764875,
+   "sha256": "6ecdf7ea090f4be6e3d05051e93660b302d80e5ae6b4dba55204e0348fc724d9",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x720_cd_changer/templates/1280x720_cd_changer/",
+     "folder": "1280x720_cd_changer",
+     "names": [
+      "CD Changer Dark",
+      "CD Changer Light"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x720_cd_changer/templates_spectrum/1280x720_cd_changer/",
+     "folder": "1280x720_cd_changer",
+     "names": [
+      "cd-strip"
+     ]
+    }
+   ],
+   "preview": "template_peppy/1280/720/previews/1280x720_cd_changer.png",
+   "thumb": "catalog/thumbs/1280x720_cd_changer.jpg"
   },
   {
    "name": "1280x720_custom_01",

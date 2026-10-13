@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-13T17:14:15+01:00",
+ "updated": "2026-10-13T18:28:40+02:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -6046,6 +6046,48 @@
    ],
    "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_g5_721_ms.png",
    "thumb": "catalog/thumbs/1920x1080_g5_721_ms.jpg"
+  },
+  {
+   "name": "1920x1080_g5_CassetteTouch",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 1080,
+   "zip": "templates_peppy_spectrum/1920/1080/1920x1080_g5_CassetteTouch.zip",
+   "bytes": 20001604,
+   "sha256": "9db39147349ba21b150e035f9cc9f17812db0d14f541d0de88f6c9f1b73c58a1",
+   "units": [
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x1080_g5_CassetteTouch/temlates_spectrum/1920x1080_g5_CassetteTouch/",
+     "folder": "1920x1080_g5_CassetteTouch",
+     "names": [
+      "Cas1",
+      "Cas2",
+      "Cas3",
+      "Cas4",
+      "Cas5",
+      "Cas6"
+     ]
+    },
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x1080_g5_CassetteTouch/templates/1920x1080_g5_CassetteTouch/",
+     "folder": "1920x1080_g5_CassetteTouch",
+     "names": [
+      "750G5_Cassette_Lin Touch",
+      "751G5_Denon Cass Touch",
+      "752G5_SonyK770 Touch",
+      "753G5_Sansui Cass Touch",
+      "754G5_Sharp Cass Touch",
+      "755G5_BASF Touch"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_g5_CassetteTouch.png",
+   "thumb": "catalog/thumbs/1920x1080_g5_CassetteTouch.jpg"
   },
   {
    "name": "1920x1080_g5_CdTouch",

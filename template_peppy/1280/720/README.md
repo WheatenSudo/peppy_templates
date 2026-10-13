@@ -48,6 +48,29 @@ Meter themes.
 
 ---
 
+## 1280x720_cd_changer
+
+![1280x720_cd_changer](previews/1280x720_cd_changer.png)
+
+| Property | Value |
+|----------|-------|
+| Template Pack | Yes (2 templates) |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Included Meters:**
+
+- CD Changer Dark
+- CD Changer Light
+
+**Download:** [1280x720_cd_changer.zip](1280x720_cd_changer.zip)
+
+**Install:** Uses the spectrum analyser, interactive buttons, Glass-only meter keys. Extract and copy the folder to `/data/INTERNAL/glass/templates/`
+
+---
+
 ## 1280x720_custom_01
 
 ![1280x720_custom_01](previews/1280x720_custom_01.png)

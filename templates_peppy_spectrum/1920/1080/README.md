@@ -50,6 +50,36 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 ---
 
+## 1920x1080_cd_changer
+
+![1920x1080_cd_changer](previews/1920x1080_cd_changer.png)
+
+| Property | Value |
+|----------|-------|
+| Template Pack | Yes (2 templates) |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Included Meters:**
+
+- CD Changer Dark
+- CD Changer Light
+
+**Download:** [1920x1080_cd_changer.zip](1920x1080_cd_changer.zip)
+
+**Uses the spectrum analyser, interactive buttons, Glass-only meter keys.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
 ## 1920x1080_g5_721_ms
 
 ![1920x1080_g5_721_ms](previews/1920x1080_g5_721_ms.png)

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-12T15:32:01+07:00",
+ "updated": "2026-10-13T16:36:29+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -5948,6 +5948,39 @@
    ],
    "preview": null,
    "thumb": null
+  },
+  {
+   "name": "1920x1080_cd_changer",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 1080,
+   "zip": "templates_peppy_spectrum/1920/1080/1920x1080_cd_changer.zip",
+   "bytes": 2762195,
+   "sha256": "684ffdc68924d803e9ad7e513a23f252b0475e26a63ebb77b912d6c44756d80d",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x1080_cd_changer/templates/1920x1080_cd_changer/",
+     "folder": "1920x1080_cd_changer",
+     "names": [
+      "CD Changer Dark",
+      "CD Changer Light"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x1080_cd_changer/templates_spectrum/1920x1080_cd_changer/",
+     "folder": "1920x1080_cd_changer",
+     "names": [
+      "cd-strip"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_cd_changer.png",
+   "thumb": "catalog/thumbs/1920x1080_cd_changer.jpg"
   },
   {
    "name": "1920x1080_g5_721_ms",

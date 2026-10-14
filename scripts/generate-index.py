@@ -136,9 +136,12 @@ def main():
                     for p in problems:
                         warnings.append('%s: %s' % (path, p))
                     kinds = sorted({u['kind'] for u in units})
-                    preview = os.path.join(folder, 'previews', name + '.png')
+                    # The README script keeps the zip's own extension on the preview it extracts.
+                    preview = next((p for p in (os.path.join(folder, 'previews', name + ext)
+                                                for ext in ('.png', '.jpg', '.jpeg'))
+                                    if os.path.isfile(p)), None)
                     thumb = os.path.join(thumbs_dir, name + '.jpg')
-                    has_preview = os.path.isfile(preview)
+                    has_preview = preview is not None
                     has_thumb = has_preview and thumbnail(preview, thumb)
                     templates.append({
                         'name': name,

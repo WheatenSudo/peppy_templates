@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-13T18:28:40+02:00",
+ "updated": "2026-10-13T16:30:43+00:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -5979,8 +5979,8 @@
      ]
     }
    ],
-   "preview": null,
-   "thumb": null
+   "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_20g5.jpg",
+   "thumb": "catalog/thumbs/1920x1080_20g5.jpg"
   },
   {
    "name": "1920x1080_cd_changer",
@@ -6682,8 +6682,8 @@
      ]
     }
    ],
-   "preview": null,
-   "thumb": null
+   "preview": "templates_spectrum/1920/480/previews/1920x480_gradients_kcaudio.jpg",
+   "thumb": "catalog/thumbs/1920x480_gradients_kcaudio.jpg"
   }
  ]
 }

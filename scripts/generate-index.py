@@ -31,6 +31,7 @@ UNIT_FILES = {'meters.txt': ('meter', 'templates'), 'spectrum.txt': ('spectrum',
 CONTAINERS = {'', 'templates', 'templates_spectrum'}
 THUMB_WIDTH = 320
 FOLDER_NAME = re.compile(r'^[A-Za-z0-9][A-Za-z0-9 ._()+-]*$')
+PREVIEW_EXTS = ('.png', '.jpg', '.jpeg')
 
 
 def sha256(path):
@@ -87,6 +88,10 @@ def units_of(path, default_folder):
         seen.add(key)
     if not units:
         problems.append('no meters.txt or spectrum.txt')
+    for info in entries:
+        base = info.filename.rpartition('/')[2].lower()
+        if base.startswith('preview.') and not base.endswith(PREVIEW_EXTS):
+            problems.append('%s is not PNG or JPG, so the catalog shows no preview' % info.filename)
     return units, problems
 
 
@@ -138,7 +143,7 @@ def main():
                     kinds = sorted({u['kind'] for u in units})
                     # The README script keeps the zip's own extension on the preview it extracts.
                     preview = next((p for p in (os.path.join(folder, 'previews', name + ext)
-                                                for ext in ('.png', '.jpg', '.jpeg'))
+                                                for ext in PREVIEW_EXTS)
                                     if os.path.isfile(p)), None)
                     thumb = os.path.join(thumbs_dir, name + '.jpg')
                     has_preview = preview is not None

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-13T16:30:43Z",
+ "updated": "2026-10-15T19:32:35+02:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -6297,6 +6297,38 @@
    ],
    "preview": "templates_peppy_spectrum/1920/440/previews/1920x440_Black_Blue.png",
    "thumb": "catalog/thumbs/1920x440_Black_Blue.jpg"
+  },
+  {
+   "name": "1920x440_Black_Blue_3",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 440,
+   "zip": "templates_peppy_spectrum/1920/440/1920x440_Black_Blue_3.zip",
+   "bytes": 1938817,
+   "sha256": "2ebfd9edc8bc3f08d0cc958acfdb3edd228448ea636b9320292c6f752fb9ea5b",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x440_Black_Blue_3/templates/1920x440_Black_Blue_3/",
+     "folder": "1920x440_Black_Blue_3",
+     "names": [
+      "Black_Blue_3_spectrum"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x440_Black_Blue_3/templates_spectrum/1920x440_Black_Blue_3/",
+     "folder": "1920x440_Black_Blue_3",
+     "names": [
+      "Black_Blue_3_spectrum"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/440/previews/1920x440_Black_Blue_3.png",
+   "thumb": "catalog/thumbs/1920x440_Black_Blue_3.jpg"
   },
   {
    "name": "1920x440_Flow_Two",

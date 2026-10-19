@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-15T19:32:35+02:00",
+ "updated": "2026-10-19T10:32:13+02:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -3900,6 +3900,32 @@
    ],
    "preview": "template_peppy/1920/1080/previews/1920x1080_g5_RADIO.png",
    "thumb": "catalog/thumbs/1920x1080_g5_RADIO.jpg"
+  },
+  {
+   "name": "1920x1080_g5_YoutubeTouch",
+   "category": "template_peppy",
+   "kind": "meter",
+   "width": 1920,
+   "height": 1080,
+   "zip": "template_peppy/1920/1080/1920x1080_g5_YoutubeTouch.zip",
+   "bytes": 8067992,
+   "sha256": "a4a84bba1e48183fc063ad20ac2e7053a02f2823b087a3d245e73da540146304",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x1080_g5_YoutubeTouch/",
+     "folder": "1920x1080_g5_YoutubeTouch",
+     "names": [
+      "800G5_Blaupunkt YT Touch",
+      "801G5_Teufel YT Touch",
+      "802G5_Imperial YT Touch",
+      "803G5_Technisat YT Touch"
+     ]
+    }
+   ],
+   "preview": "template_peppy/1920/1080/previews/1920x1080_g5_YoutubeTouch.png",
+   "thumb": "catalog/thumbs/1920x1080_g5_YoutubeTouch.jpg"
   },
   {
    "name": "1920x1080_reel_tape",

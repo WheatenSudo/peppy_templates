@@ -565,6 +565,31 @@ Meter themes.
 
 ---
 
+## 1920x1080_g5_YoutubeTouch
+
+![1920x1080_g5_YoutubeTouch](previews/1920x1080_g5_YoutubeTouch.png)
+
+| Property | Value |
+|----------|-------|
+| Template Pack | Yes (4 templates) |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | No |
+| Album Art | Yes |
+
+**Included Meters:**
+
+- 800G5_Blaupunkt YT Touch
+- 801G5_Teufel YT Touch
+- 802G5_Imperial YT Touch
+- 803G5_Technisat YT Touch
+
+**Download:** [1920x1080_g5_YoutubeTouch.zip](1920x1080_g5_YoutubeTouch.zip)
+
+**Install:** Uses interactive buttons, Glass-only meter keys. Extract and copy the folder to `/data/INTERNAL/glass/templates/`
+
+---
+
 ## 1920x1080_reel_tape
 
 ![1920x1080_reel_tape](previews/1920x1080_reel_tape.png)

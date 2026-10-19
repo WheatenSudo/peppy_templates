@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-19T14:21:13+02:00",
+ "updated": "2026-10-19T16:17:53+02:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -6293,6 +6293,70 @@
    "thumb": "catalog/thumbs/1920x440_Aluminium_spectrum.jpg"
   },
   {
+   "name": "1920x440_BB_5",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 440,
+   "zip": "templates_peppy_spectrum/1920/440/1920x440_BB_5.zip",
+   "bytes": 1702306,
+   "sha256": "80cdf40cd604521546cc5680d8765a02911774824844acea7702c152cb21c90b",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x440_BB_5/templates/1920x440_BB_5/",
+     "folder": "1920x440_BB_5",
+     "names": [
+      "BB_5_spectrum"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x440_BB_5/templates_spectrum/1920x440_BB_5/",
+     "folder": "1920x440_BB_5",
+     "names": [
+      "1920x440_BB_5"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/440/previews/1920x440_BB_5.png",
+   "thumb": "catalog/thumbs/1920x440_BB_5.jpg"
+  },
+  {
+   "name": "1920x440_BB_6",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 440,
+   "zip": "templates_peppy_spectrum/1920/440/1920x440_BB_6.zip",
+   "bytes": 1645956,
+   "sha256": "1a6cc2d437a192496a13162fa7714233e27b6b3d99e21142c9bf7f4528e80c20",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x440_BB_6/templates/1920x440_BB_6/",
+     "folder": "1920x440_BB_6",
+     "names": [
+      "BB_5_spectrum"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x440_BB_6/templates_spectrum/1920x440_BB_6/",
+     "folder": "1920x440_BB_6",
+     "names": [
+      "1920x440_BB_6"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/440/previews/1920x440_BB_6.png",
+   "thumb": "catalog/thumbs/1920x440_BB_6.jpg"
+  },
+  {
    "name": "1920x440_Black_Blue",
    "category": "templates_peppy_spectrum",
    "kind": "meter+spectrum",
@@ -6325,6 +6389,38 @@
    "thumb": "catalog/thumbs/1920x440_Black_Blue.jpg"
   },
   {
+   "name": "1920x440_Black_Blue_2",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 440,
+   "zip": "templates_peppy_spectrum/1920/440/1920x440_Black_Blue_2.zip",
+   "bytes": 1651098,
+   "sha256": "32ec4c5689c1e840fd8f1b45548f187adfadc8dc9d4d3a2a724389e3b739a2a0",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x440_Black_Blue_2/templates/1920x440_Black_Blue_2/",
+     "folder": "1920x440_Black_Blue_2",
+     "names": [
+      "Black_Blue_2_spectrum"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x440_Black_Blue_2/templates_spectrum/1920x440_Black_Blue_2/",
+     "folder": "1920x440_Black_Blue_2",
+     "names": [
+      "Black_Blue_spectrum_2"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/440/previews/1920x440_Black_Blue_2.png",
+   "thumb": "catalog/thumbs/1920x440_Black_Blue_2.jpg"
+  },
+  {
    "name": "1920x440_Black_Blue_3",
    "category": "templates_peppy_spectrum",
    "kind": "meter+spectrum",
@@ -6355,6 +6451,38 @@
    ],
    "preview": "templates_peppy_spectrum/1920/440/previews/1920x440_Black_Blue_3.png",
    "thumb": "catalog/thumbs/1920x440_Black_Blue_3.jpg"
+  },
+  {
+   "name": "1920x440_Black_Blue_4",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 440,
+   "zip": "templates_peppy_spectrum/1920/440/1920x440_Black_Blue_4.zip",
+   "bytes": 1732112,
+   "sha256": "e10ece6952dc604519462683cdd8ec32ad9da2fc8997572f095cd13132b6bf57",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x440_Black_Blue_4/templates/1920x440_Black_Blue_4/",
+     "folder": "1920x440_Black_Blue_4",
+     "names": [
+      "Black_Blue_4_spectrum"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x440_Black_Blue_4/templates_spectrum/1920x440_Black_Blue_4/",
+     "folder": "1920x440_Black_Blue_4",
+     "names": [
+      "Black_Blue_4_spectrum"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/440/previews/1920x440_Black_Blue_4.png",
+   "thumb": "catalog/thumbs/1920x440_Black_Blue_4.jpg"
   },
   {
    "name": "1920x440_Flow_Two",

@@ -27,6 +27,56 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 ---
 
+## 1920x440_BB_5
+
+![1920x440_BB_5](previews/1920x440_BB_5.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | BB_5_spectrum |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1920x440_BB_5.zip](1920x440_BB_5.zip)
+
+**Uses the spectrum analyser.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
+## 1920x440_BB_6
+
+![1920x440_BB_6](previews/1920x440_BB_6.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | BB_5_spectrum |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1920x440_BB_6.zip](1920x440_BB_6.zip)
+
+**Uses the spectrum analyser.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
 ## 1920x440_Black_Blue
 
 ![1920x440_Black_Blue](previews/1920x440_Black_Blue.png)
@@ -50,6 +100,29 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 ---
 
+## 1920x440_Black_Blue_2
+
+![1920x440_Black_Blue_2](previews/1920x440_Black_Blue_2.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | Black_Blue_2_spectrum |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1920x440_Black_Blue_2.zip](1920x440_Black_Blue_2.zip)
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
 ## 1920x440_Black_Blue_3
 
 ![1920x440_Black_Blue_3](previews/1920x440_Black_Blue_3.png)
@@ -63,6 +136,31 @@ Or press Install on the Catalog tab of the Glass Manager.
 | Album Art | Yes |
 
 **Download:** [1920x440_Black_Blue_3.zip](1920x440_Black_Blue_3.zip)
+
+**Uses the spectrum analyser.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
+## 1920x440_Black_Blue_4
+
+![1920x440_Black_Blue_4](previews/1920x440_Black_Blue_4.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | Black_Blue_4_spectrum |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1920x440_Black_Blue_4.zip](1920x440_Black_Blue_4.zip)
 
 **Uses the spectrum analyser.**
 

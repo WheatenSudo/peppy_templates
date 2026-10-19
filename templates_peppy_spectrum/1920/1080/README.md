@@ -103,6 +103,40 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 ---
 
+## 1920x1080_g5_CassetteTouch
+
+![1920x1080_g5_CassetteTouch](previews/1920x1080_g5_CassetteTouch.png)
+
+| Property | Value |
+|----------|-------|
+| Template Pack | Yes (6 templates) |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Included Meters:**
+
+- 750G5_Cassette_Lin Touch
+- 751G5_Denon Cass Touch
+- 752G5_SonyK770 Touch
+- 753G5_Sansui Cass Touch
+- 754G5_Sharp Cass Touch
+- 755G5_BASF Touch
+
+**Download:** [1920x1080_g5_CassetteTouch.zip](1920x1080_g5_CassetteTouch.zip)
+
+**Uses the spectrum analyser, interactive buttons, Glass-only meter keys.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
 ## 1920x1080_g5_CdTouch
 
 ![1920x1080_g5_CdTouch](previews/1920x1080_g5_CdTouch.png)

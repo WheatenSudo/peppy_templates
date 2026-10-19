@@ -48,7 +48,7 @@ A theme without a spectrum has no `templates_spectrum/` part. A zip made by hand
 |------|----------|------------|
 | `meters.txt` | for a meter theme | the meters, one `[section]` each |
 | `spectrum.txt` | for a spectrum theme | the spectrum looks, one `[section]` each |
-| `preview.png` | yes | the picture shown in the catalog; Package renders one with every meter tiled |
+| `preview.png` | yes | the picture shown in the catalog, PNG or JPG (`preview.jpg`); Package renders one with every meter tiled |
 | pictures | yes | everything the text names: background, foreground, needles, records, reels, masks |
 | fonts | optional | a font the theme brings, named by `font.path` in its text |
 

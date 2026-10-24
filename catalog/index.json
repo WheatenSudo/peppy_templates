@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-19T21:01:23+02:00",
+ "updated": "2026-10-24T17:30:25+02:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -6211,6 +6211,57 @@
    ],
    "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_g5_TapeTouch.png",
    "thumb": "catalog/thumbs/1920x1080_g5_TapeTouch.jpg"
+  },
+  {
+   "name": "1920x1080_g5_TouchMetGBS",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 1080,
+   "zip": "templates_peppy_spectrum/1920/1080/1920x1080_g5_TouchMetGBS.zip",
+   "bytes": 30557383,
+   "sha256": "89a0687172af1098e47636df1cdea6d0cab2af52963065bf6632cfcacae5775b",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x1080_g5_TouchMetGBS/templates/1920x1080_g5_TouchMetGBS/",
+     "folder": "1920x1080_g5_TouchMetGBS",
+     "names": [
+      "801G5_Accuphase Mon Touch",
+      "802G5_Luxman Touch",
+      "803G5_Pioneer Touch",
+      "804G5_McIntosh MonoTouch",
+      "805G5_Sansui Touch",
+      "806G5_Marantz Touch",
+      "807G5_Technics_Silver Touch",
+      "808G5_Audio Research Touch",
+      "809G5_Akai Reverse Touch"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x1080_g5_TouchMetGBS/templates_spectrum/1920x1080_g5_TouchMetGBS/",
+     "folder": "1920x1080_g5_TouchMetGBS",
+     "names": [
+      "ACC1",
+      "LUX",
+      "PION",
+      "MCIN",
+      "MCIN2",
+      "TECH",
+      "===",
+      "SANS",
+      "Marantz",
+      "TECHNICS",
+      "Audio",
+      "Akai"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_g5_TouchMetGBS.png",
+   "thumb": "catalog/thumbs/1920x1080_g5_TouchMetGBS.jpg"
   },
   {
    "name": "1920x1080_g5_TurnTouch",

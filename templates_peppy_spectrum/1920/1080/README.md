@@ -211,6 +211,43 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 ---
 
+## 1920x1080_g5_TouchMetGBS
+
+![1920x1080_g5_TouchMetGBS](previews/1920x1080_g5_TouchMetGBS.png)
+
+| Property | Value |
+|----------|-------|
+| Template Pack | Yes (9 templates) |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Included Meters:**
+
+- 801G5_Accuphase Mon Touch
+- 802G5_Luxman Touch
+- 803G5_Pioneer Touch
+- 804G5_McIntosh MonoTouch
+- 805G5_Sansui Touch
+- 806G5_Marantz Touch
+- 807G5_Technics_Silver Touch
+- 808G5_Audio Research Touch
+- 809G5_Akai Reverse Touch
+
+**Download:** [1920x1080_g5_TouchMetGBS.zip](1920x1080_g5_TouchMetGBS.zip)
+
+**Uses the spectrum analyser, interactive buttons, Glass-only meter keys.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
 ## 1920x1080_g5_TurnTouch
 
 ![1920x1080_g5_TurnTouch](previews/1920x1080_g5_TurnTouch.png)

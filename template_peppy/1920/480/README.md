@@ -114,6 +114,31 @@ Meter themes.
 
 ---
 
+## 1920x480_g5_CdTurnFanart
+
+![1920x480_g5_CdTurnFanart](previews/1920x480_g5_CdTurnFanart.png)
+
+| Property | Value |
+|----------|-------|
+| Template Pack | Yes (4 templates) |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | No |
+| Album Art | Yes |
+
+**Included Meters:**
+
+- 200G5_CD1 Fanart
+- 201G5_CD2 Fanart
+- 202G5_CD3 Fanart
+- 203G5_CD4 Fanart
+
+**Download:** [1920x480_g5_CdTurnFanart.zip](1920x480_g5_CdTurnFanart.zip)
+
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
+
+---
+
 
 ## Installation
 

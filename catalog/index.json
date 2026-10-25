@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-25T08:26:07+01:00",
+ "updated": "2026-10-25T13:27:24+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -4200,6 +4200,32 @@
    ],
    "preview": "template_peppy/1920/480/previews/1920x480_g5_820_basic.png",
    "thumb": "catalog/thumbs/1920x480_g5_820_basic.jpg"
+  },
+  {
+   "name": "1920x480_g5_CdTurnFanart",
+   "category": "template_peppy",
+   "kind": "meter",
+   "width": 1920,
+   "height": 480,
+   "zip": "template_peppy/1920/480/1920x480_g5_CdTurnFanart.zip",
+   "bytes": 5793134,
+   "sha256": "caf0bdc3be39c1d9513ed0a0e23cf5baf965b2f71e4023168287a3dd8e576009",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x480_g5_CdTurnFanart/",
+     "folder": "1920x480_g5_CdTurnFanart",
+     "names": [
+      "200G5_CD1 Fanart",
+      "201G5_CD2 Fanart",
+      "202G5_CD3 Fanart",
+      "203G5_CD4 Fanart"
+     ]
+    }
+   ],
+   "preview": "template_peppy/1920/480/previews/1920x480_g5_CdTurnFanart.png",
+   "thumb": "catalog/thumbs/1920x480_g5_CdTurnFanart.jpg"
   },
   {
    "name": "1920x515_g5_901_mbasic",

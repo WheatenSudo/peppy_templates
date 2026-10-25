@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-25T08:07:49+01:00",
+ "updated": "2026-10-25T08:16:58+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -4489,8 +4489,8 @@
    "width": 1920,
    "height": 515,
    "zip": "template_peppy/1920/515/1920x515_g5_915_Tape_Recorder.zip",
-   "bytes": 14239886,
-   "sha256": "d6c04e2be32625f6000bf9e93cb573bb014b06d9409cbd322d872d61e0b431ea",
+   "bytes": 14241757,
+   "sha256": "014fd64157ba4bc8789b6703d5ebbbda071c0508be341cd1a357e401d4f5c587",
    "units": [
     {
      "kind": "meter",

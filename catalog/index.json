@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-24T17:30:25+02:00",
+ "updated": "2026-10-25T08:07:49+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -4417,8 +4417,8 @@
    "width": 1920,
    "height": 515,
    "zip": "template_peppy/1920/515/1920x515_g5_910_turntables.zip",
-   "bytes": 17767999,
-   "sha256": "aeeefdead899f62bcf24253de9c04d0183da6f714aeb0103b68e888e1b4b855b",
+   "bytes": 17768408,
+   "sha256": "b0015db3817132d7b30e3ad1bd56f27cf1cf6b449f30ee96fa972216f4f130a1",
    "units": [
     {
      "kind": "meter",

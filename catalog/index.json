@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-19T16:17:53+02:00",
+ "updated": "2026-10-25T17:33:45+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -4202,6 +4202,32 @@
    "thumb": "catalog/thumbs/1920x480_g5_820_basic.jpg"
   },
   {
+   "name": "1920x480_g5_CdTurnFanart",
+   "category": "template_peppy",
+   "kind": "meter",
+   "width": 1920,
+   "height": 480,
+   "zip": "template_peppy/1920/480/1920x480_g5_CdTurnFanart.zip",
+   "bytes": 5793134,
+   "sha256": "caf0bdc3be39c1d9513ed0a0e23cf5baf965b2f71e4023168287a3dd8e576009",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x480_g5_CdTurnFanart/",
+     "folder": "1920x480_g5_CdTurnFanart",
+     "names": [
+      "200G5_CD1 Fanart",
+      "201G5_CD2 Fanart",
+      "202G5_CD3 Fanart",
+      "203G5_CD4 Fanart"
+     ]
+    }
+   ],
+   "preview": "template_peppy/1920/480/previews/1920x480_g5_CdTurnFanart.png",
+   "thumb": "catalog/thumbs/1920x480_g5_CdTurnFanart.jpg"
+  },
+  {
    "name": "1920x515_g5_901_mbasic",
    "category": "template_peppy",
    "kind": "meter",
@@ -4417,8 +4443,8 @@
    "width": 1920,
    "height": 515,
    "zip": "template_peppy/1920/515/1920x515_g5_910_turntables.zip",
-   "bytes": 17767999,
-   "sha256": "aeeefdead899f62bcf24253de9c04d0183da6f714aeb0103b68e888e1b4b855b",
+   "bytes": 17768408,
+   "sha256": "b0015db3817132d7b30e3ad1bd56f27cf1cf6b449f30ee96fa972216f4f130a1",
    "units": [
     {
      "kind": "meter",
@@ -4489,8 +4515,8 @@
    "width": 1920,
    "height": 515,
    "zip": "template_peppy/1920/515/1920x515_g5_915_Tape_Recorder.zip",
-   "bytes": 14239886,
-   "sha256": "d6c04e2be32625f6000bf9e93cb573bb014b06d9409cbd322d872d61e0b431ea",
+   "bytes": 14241757,
+   "sha256": "014fd64157ba4bc8789b6703d5ebbbda071c0508be341cd1a357e401d4f5c587",
    "units": [
     {
      "kind": "meter",
@@ -4521,8 +4547,8 @@
    "width": 1920,
    "height": 515,
    "zip": "template_peppy/1920/515/1920x515_g5_917_CD.zip",
-   "bytes": 13156178,
-   "sha256": "ed18ed64269420de5e40d0a67c9add6b50d5cd1b03518d0f2eeb98d2fc86af07",
+   "bytes": 13156339,
+   "sha256": "c32e5226f2cb52d2c5001addbfb45ed4eab05711827dae817c69f22901617726",
    "units": [
     {
      "kind": "meter",
@@ -4553,8 +4579,8 @@
    "width": 1920,
    "height": 515,
    "zip": "template_peppy/1920/515/1920x515_g5_FanartCD.zip",
-   "bytes": 10187714,
-   "sha256": "0010ef794d65e8cf77206e733a3e927266cbea18a47bab4d48ab10b5eb60eea7",
+   "bytes": 10567191,
+   "sha256": "49595eb771b8f1f3317e5e843d13e3a331d47c720658fcd7d9fb678122577639",
    "units": [
     {
      "kind": "meter",
@@ -6213,14 +6239,65 @@
    "thumb": "catalog/thumbs/1920x1080_g5_TapeTouch.jpg"
   },
   {
+   "name": "1920x1080_g5_TouchMetGBS",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 1080,
+   "zip": "templates_peppy_spectrum/1920/1080/1920x1080_g5_TouchMetGBS.zip",
+   "bytes": 30557383,
+   "sha256": "89a0687172af1098e47636df1cdea6d0cab2af52963065bf6632cfcacae5775b",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x1080_g5_TouchMetGBS/templates/1920x1080_g5_TouchMetGBS/",
+     "folder": "1920x1080_g5_TouchMetGBS",
+     "names": [
+      "801G5_Accuphase Mon Touch",
+      "802G5_Luxman Touch",
+      "803G5_Pioneer Touch",
+      "804G5_McIntosh MonoTouch",
+      "805G5_Sansui Touch",
+      "806G5_Marantz Touch",
+      "807G5_Technics_Silver Touch",
+      "808G5_Audio Research Touch",
+      "809G5_Akai Reverse Touch"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x1080_g5_TouchMetGBS/templates_spectrum/1920x1080_g5_TouchMetGBS/",
+     "folder": "1920x1080_g5_TouchMetGBS",
+     "names": [
+      "ACC1",
+      "LUX",
+      "PION",
+      "MCIN",
+      "MCIN2",
+      "TECH",
+      "===",
+      "SANS",
+      "Marantz",
+      "TECHNICS",
+      "Audio",
+      "Akai"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_g5_TouchMetGBS.png",
+   "thumb": "catalog/thumbs/1920x1080_g5_TouchMetGBS.jpg"
+  },
+  {
    "name": "1920x1080_g5_TurnTouch",
    "category": "templates_peppy_spectrum",
    "kind": "meter+spectrum",
    "width": 1920,
    "height": 1080,
    "zip": "templates_peppy_spectrum/1920/1080/1920x1080_g5_TurnTouch.zip",
-   "bytes": 29022867,
-   "sha256": "8bbd3a5dd5ac9f0f8cd1dea4d2e67a30e6d6b9d479ac0b162eb8002874ebd0d7",
+   "bytes": 30457502,
+   "sha256": "0599077e41f6e51505f0b159689c351c83f03bd66c3a6aa8d0cdc997e5e313ce",
    "units": [
     {
      "kind": "meter",
@@ -6459,8 +6536,8 @@
    "width": 1920,
    "height": 440,
    "zip": "templates_peppy_spectrum/1920/440/1920x440_Black_Blue_4.zip",
-   "bytes": 1732112,
-   "sha256": "e10ece6952dc604519462683cdd8ec32ad9da2fc8997572f095cd13132b6bf57",
+   "bytes": 1798507,
+   "sha256": "35e1cf80d5cbff16a518282142c7251e2ac35f52fe29c79771aa40b3ddba0d19",
    "units": [
     {
      "kind": "meter",

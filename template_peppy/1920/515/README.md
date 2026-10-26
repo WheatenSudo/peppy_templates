@@ -367,7 +367,7 @@ Meter themes.
 
 **Download:** [1920x515_g5_FanartCD.zip](1920x515_g5_FanartCD.zip)
 
-**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
+**Install:** Uses Glass-only meter keys. Extract and copy the folder to `/data/INTERNAL/glass/templates/`
 
 ---
 

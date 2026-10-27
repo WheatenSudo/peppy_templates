@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-26T18:46:16+01:00",
+ "updated": "2026-10-27T18:43:38+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -6277,8 +6277,8 @@
    "width": 1920,
    "height": 1080,
    "zip": "templates_peppy_spectrum/1920/1080/1920x1080_g5_TouchMetGBS.zip",
-   "bytes": 30557383,
-   "sha256": "89a0687172af1098e47636df1cdea6d0cab2af52963065bf6632cfcacae5775b",
+   "bytes": 37909607,
+   "sha256": "99027fb4625eb904cddee8957b61ab114a02c0f13a2629fa34149dc3f535b756",
    "units": [
     {
      "kind": "meter",
@@ -6289,12 +6289,15 @@
       "801G5_Accuphase Mon Touch",
       "802G5_Luxman Touch",
       "803G5_Pioneer Touch",
-      "804G5_McIntosh MonoTouch",
-      "805G5_Sansui Touch",
-      "806G5_Marantz Touch",
-      "807G5_Technics_Silver Touch",
-      "808G5_Audio Research Touch",
-      "809G5_Akai Reverse Touch"
+      "804G5_Hellix Touch",
+      "805G5_McIntosh MonoTouch",
+      "806G5_Sansui Touch",
+      "807G5_Marantz Touch",
+      "808G5_Marantz Black Touch",
+      "809G5_Technics_Silver Touch",
+      "810G5_Audio Research Touch",
+      "811G5_Akai Reverse Touch",
+      "812G5_Burmaster Touch"
      ]
     },
     {
@@ -6314,7 +6317,10 @@
       "Marantz",
       "TECHNICS",
       "Audio",
-      "Akai"
+      "Akai",
+      "Hel",
+      "Burm",
+      "MarBL"
      ]
     }
    ],

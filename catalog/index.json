@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-25T13:27:24+01:00",
+ "updated": "2026-10-26T18:46:16+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -4579,8 +4579,8 @@
    "width": 1920,
    "height": 515,
    "zip": "template_peppy/1920/515/1920x515_g5_FanartCD.zip",
-   "bytes": 10187714,
-   "sha256": "0010ef794d65e8cf77206e733a3e927266cbea18a47bab4d48ab10b5eb60eea7",
+   "bytes": 10567191,
+   "sha256": "49595eb771b8f1f3317e5e843d13e3a331d47c720658fcd7d9fb678122577639",
    "units": [
     {
      "kind": "meter",
@@ -5645,6 +5645,38 @@
    ],
    "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_Aureon.png",
    "thumb": "catalog/thumbs/1280x800_Aureon.jpg"
+  },
+  {
+   "name": "1280x800_GM",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 800,
+   "zip": "templates_peppy_spectrum/1280/800/1280x800_GM.zip",
+   "bytes": 2428648,
+   "sha256": "0036243162180031a71ff9cf5851f0496486bb11798b6a3161694039e0ed0727",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x800_GM/templates/1280x800_GM/",
+     "folder": "1280x800_GM",
+     "names": [
+      "1280x800_GM"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x800_GM/templates_spectrum/1280x800_GM/",
+     "folder": "1280x800_GM",
+     "names": [
+      "1280x800_GM"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_GM.png",
+   "thumb": "catalog/thumbs/1280x800_GM.jpg"
   },
   {
    "name": "1280x800_Naim_NAC_332",

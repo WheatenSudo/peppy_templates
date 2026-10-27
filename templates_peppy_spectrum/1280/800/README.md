@@ -179,6 +179,31 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 ---
 
+## 1280x800_dagostino_s250mxv
+
+![1280x800_dagostino_s250mxv](previews/1280x800_dagostino_s250mxv.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | 1280x800_dagostino_s250mxv |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1280x800_dagostino_s250mxv.zip](1280x800_dagostino_s250mxv.zip)
+
+**Uses the spectrum analyser.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
 ## 1280x800_g5_410_ms
 
 ![1280x800_g5_410_ms](previews/1280x800_g5_410_ms.png)

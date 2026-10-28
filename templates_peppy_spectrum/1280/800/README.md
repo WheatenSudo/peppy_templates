@@ -104,6 +104,31 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 ---
 
+## 1280x800_DD_01
+
+![1280x800_DD_01](previews/1280x800_DD_01.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | 1280x800_DD_01 |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1280x800_DD_01.zip](1280x800_DD_01.zip)
+
+**Uses the spectrum analyser, interactive buttons.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
 ## 1280x800_GM
 
 ![1280x800_GM](previews/1280x800_GM.png)
@@ -283,6 +308,31 @@ Or press Install on the Catalog tab of the Glass Manager.
 **Download:** [1280x800_standard.zip](1280x800_standard.zip)
 
 **Uses the spectrum analyser, interactive buttons.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
+## 1280x800_wood_01
+
+![1280x800_wood_01](previews/1280x800_wood_01.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | 1280x800_wood_01 |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1280x800_wood_01.zip](1280x800_wood_01.zip)
+
+**Uses the spectrum analyser.**
 
 **Install (both required):**
 1. Extract the zip file

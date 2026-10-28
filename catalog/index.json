@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-27T21:14:18+01:00",
+ "updated": "2026-10-28T16:50:50+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -5647,6 +5647,38 @@
    "thumb": "catalog/thumbs/1280x800_Aureon.jpg"
   },
   {
+   "name": "1280x800_DD_01",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 800,
+   "zip": "templates_peppy_spectrum/1280/800/1280x800_DD_01.zip",
+   "bytes": 2468432,
+   "sha256": "eb7c1b7a4d7ff559e62574f3c1686202f2845a3cef7181093c9cf35414ebc864",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x800_DD_01/templates/1280x800_DD_01/",
+     "folder": "1280x800_DD_01",
+     "names": [
+      "1280x800_DD_01"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x800_DD_01/templates_spectrum/1280x800_DD_01/",
+     "folder": "1280x800_DD_01",
+     "names": [
+      "1280x800_DD_01"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_DD_01.png",
+   "thumb": "catalog/thumbs/1280x800_DD_01.jpg"
+  },
+  {
    "name": "1280x800_GM",
    "category": "templates_peppy_spectrum",
    "kind": "meter+spectrum",
@@ -5895,6 +5927,38 @@
    ],
    "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_standard.png",
    "thumb": "catalog/thumbs/1280x800_standard.jpg"
+  },
+  {
+   "name": "1280x800_wood_01",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 800,
+   "zip": "templates_peppy_spectrum/1280/800/1280x800_wood_01.zip",
+   "bytes": 1834917,
+   "sha256": "51705f06bd930be25960952346117036ef2fabb2367e40db7a6d21b0c02c7bec",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x800_wood_01/templates/1280x800_wood_01/",
+     "folder": "1280x800_wood_01",
+     "names": [
+      "1280x800_wood_01"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x800_wood_01/templates_spectrum/1280x800_wood_01/",
+     "folder": "1280x800_wood_01",
+     "names": [
+      "1280x800_wood_01"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_wood_01.png",
+   "thumb": "catalog/thumbs/1280x800_wood_01.jpg"
   },
   {
    "name": "1480x320_g5_520_ms",

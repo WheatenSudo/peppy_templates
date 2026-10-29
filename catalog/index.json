@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-29T22:55:38+01:00",
+ "updated": "2026-10-29T23:24:17+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -6798,8 +6798,8 @@
    "width": 1920,
    "height": 440,
    "zip": "templates_peppy_spectrum/1920/440/1920x440_Project_VTER.zip",
-   "bytes": 2496597,
-   "sha256": "f8b358f942881c96c389cc77665418ce9dd98c834c17c33222b4aa1473bb5fb1",
+   "bytes": 2654491,
+   "sha256": "55f34f5a234be2d0fd8583321cd631b80314c771bc7e6fcda96de87408bf0cef",
    "units": [
     {
      "kind": "meter",

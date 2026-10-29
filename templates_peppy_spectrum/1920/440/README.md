@@ -219,6 +219,31 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 ---
 
+## 1920x440_Signature12_2
+
+![1920x440_Signature12_2](previews/1920x440_Signature12_2.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | 1920x440_Signature12_2 |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1920x440_Signature12_2.zip](1920x440_Signature12_2.zip)
+
+**Uses the spectrum analyser.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
 ## 1920x440_Titanium_Black
 
 ![1920x440_Titanium_Black](previews/1920x440_Titanium_Black.png)
@@ -255,6 +280,31 @@ Or press Install on the Catalog tab of the Glass Manager.
 | Album Art | Yes |
 
 **Download:** [1920x440_black-anodized.zip](1920x440_black-anodized.zip)
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
+## 1920x440_vertical_01
+
+![1920x440_vertical_01](previews/1920x440_vertical_01.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | vertical-turntable-blue |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1920x440_vertical_01.zip](1920x440_vertical_01.zip)
+
+**Uses the spectrum analyser.**
 
 **Install (both required):**
 1. Extract the zip file

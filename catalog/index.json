@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-28T16:50:50+01:00",
+ "updated": "2026-10-29T20:58:25+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -6760,6 +6760,38 @@
    "thumb": "catalog/thumbs/1920x440_Naim_NSS-333.jpg"
   },
   {
+   "name": "1920x440_Signature12_2",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 440,
+   "zip": "templates_peppy_spectrum/1920/440/1920x440_Signature12_2.zip",
+   "bytes": 3550009,
+   "sha256": "346d473a221cb26e7c014027fc275cc78aca120f635b81c45da3bdbbbdb1f993",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x440_Signature12_2/templates/1920x440_Signature12_2/",
+     "folder": "1920x440_Signature12_2",
+     "names": [
+      "1920x440_Signature12_2"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x440_Signature12_2/templates_spectrum/1920x440_Signature12_2/",
+     "folder": "1920x440_Signature12_2",
+     "names": [
+      "1920x440_Signature12_2"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/440/previews/1920x440_Signature12_2.png",
+   "thumb": "catalog/thumbs/1920x440_Signature12_2.jpg"
+  },
+  {
    "name": "1920x440_Titanium_Black",
    "category": "templates_peppy_spectrum",
    "kind": "meter+spectrum",
@@ -6822,6 +6854,38 @@
    ],
    "preview": "templates_peppy_spectrum/1920/440/previews/1920x440_black-anodized.png",
    "thumb": "catalog/thumbs/1920x440_black-anodized.jpg"
+  },
+  {
+   "name": "1920x440_vertical_01",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 440,
+   "zip": "templates_peppy_spectrum/1920/440/1920x440_vertical_01.zip",
+   "bytes": 2464013,
+   "sha256": "b5b0750c26ee0db6b0b24a43def9a82afe448bf0a22f02ff89d5886c8b4e0886",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x440_vertical_01/templates/1920x440_vertical_01/",
+     "folder": "1920x440_vertical_01",
+     "names": [
+      "vertical-turntable-blue"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x440_vertical_01/templates_spectrum/1920x440_vertical_01/",
+     "folder": "1920x440_vertical_01",
+     "names": [
+      "1920x440_Vertical_01"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/440/previews/1920x440_vertical_01.png",
+   "thumb": "catalog/thumbs/1920x440_vertical_01.jpg"
   },
   {
    "name": "1920x480_g5_850_sm",

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-29T21:24:02+01:00",
+ "updated": "2026-10-29T21:34:49+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -5775,6 +5775,38 @@
    ],
    "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_Titanium.png",
    "thumb": "catalog/thumbs/1280x800_Titanium.jpg"
+  },
+  {
+   "name": "1280x800_Vertical_01",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 800,
+   "zip": "templates_peppy_spectrum/1280/800/1280x800_Vertical_01.zip",
+   "bytes": 4708968,
+   "sha256": "38425e5b11952fbb8fa684275be6c4b4cf364bea411c73e0a6c25c255bf08bcb",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x800_Vertical_01/templates/1280x800_Vertical_01/",
+     "folder": "1280x800_Vertical_01",
+     "names": [
+      "vertical-turntable-blue"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x800_Vertical_01/templates_spectrum/1280x800_Vertical_01/",
+     "folder": "1280x800_Vertical_01",
+     "names": [
+      "1280x800_Vertical_01"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_Vertical_01.png",
+   "thumb": "catalog/thumbs/1280x800_Vertical_01.jpg"
   },
   {
    "name": "1280x800_dagostino_s250mxv",

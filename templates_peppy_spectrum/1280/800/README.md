@@ -204,6 +204,31 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 ---
 
+## 1280x800_Vertical_01
+
+![1280x800_Vertical_01](previews/1280x800_Vertical_01.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | vertical-turntable-blue |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1280x800_Vertical_01.zip](1280x800_Vertical_01.zip)
+
+**Uses the spectrum analyser.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
 ## 1280x800_dagostino_s250mxv
 
 ![1280x800_dagostino_s250mxv](previews/1280x800_dagostino_s250mxv.png)

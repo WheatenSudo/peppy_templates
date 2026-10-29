@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-29T21:34:49+01:00",
+ "updated": "2026-10-29T22:55:38+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -6790,6 +6790,38 @@
    ],
    "preview": "templates_peppy_spectrum/1920/440/previews/1920x440_Naim_NSS-333.png",
    "thumb": "catalog/thumbs/1920x440_Naim_NSS-333.jpg"
+  },
+  {
+   "name": "1920x440_Project_VTER",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 440,
+   "zip": "templates_peppy_spectrum/1920/440/1920x440_Project_VTER.zip",
+   "bytes": 2496597,
+   "sha256": "f8b358f942881c96c389cc77665418ce9dd98c834c17c33222b4aa1473bb5fb1",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x440_Project_VTER/templates/1920x440_Project_VTER/",
+     "folder": "1920x440_Project_VTER",
+     "names": [
+      "vertical-turntable-blue"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x440_Project_VTER/templates_spectrum/1920x440_Project_VTER/",
+     "folder": "1920x440_Project_VTER",
+     "names": [
+      "1920x440_Project_VTER"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/440/previews/1920x440_Project_VTER.png",
+   "thumb": "catalog/thumbs/1920x440_Project_VTER.jpg"
   },
   {
    "name": "1920x440_Signature12_2",
